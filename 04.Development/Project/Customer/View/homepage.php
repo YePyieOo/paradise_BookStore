@@ -6,13 +6,9 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Homepage</title>
-   <link rel="stylesheet" href="../rescource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
-   <link rel="stylesheet" href="../rescource/css/style.css" />
-   <link rel="stylesheet" href="../rescource/css/homepage.css" />
-
-
-
-
+   <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="../resource/css/style.css" />
+   <link rel="stylesheet" href="../resource/css/homepage.css" />
 </head>
 
 <body>
@@ -54,10 +50,10 @@
          </div>
       </div>
    </nav>
-   <script src="../rescource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-   <script src="../rescource/js/script.js"></script>
-   <script src="../rescource/js/homepage.js"></script>
-   <script src="../rescource/UI Library/jquery-3.3.1.min.js"></script>
+   <script src="../resource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+   <script src="../resource/js/script.js"></script>
+   <script src="../resource/js/homepage.js"></script>
+   <script src="../resource/UI Library/jquery-3.3.1.min.js"></script>
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
