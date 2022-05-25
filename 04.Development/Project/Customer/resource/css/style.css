@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
    font-family: "Roboto", sans-serif;
+   /* color: whitesmoke; */
 }
 
 :root {
@@ -9,4 +10,12 @@
    --font-color1: #484343;
    --font-color2: #595e68;
    --yellow-icon: #f4d221;
+}
+
+.commom-bg {
+   background-color: var(--primary-darkblue);
+}
+
+.font-color-primary {
+   color: var(--primary-darkblue);
 }
