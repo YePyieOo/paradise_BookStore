@@ -78,6 +78,41 @@
       </div>
    </nav>
 
+   <section id="welcome-section" class="container mt-5 ">
+      <div class="row pt-5">
+         <div class="col-12 col-lg-5">
+            <div class="">
+               <img src="../resource/img/main slider_1.png" class="img-fluid" alt="" />
+            </div>
+         </div>
+
+         <div class="col-12 col-lg-1"></div>
+
+         <div class="col-12 col-lg-6">
+            <div class="">
+               <h3 class="font-color-primary">CHOOSE YOUR BRAIN FOOD</h3>
+               <h1 class="fw-bold text-primary">BOOK IN STORE</h1>
+               <p class="">Language / Education / Novels / Technology / Cartoons</p>
+               <a class="btn commom-bg text-white btn-lg shop-now fs-6" href="#">SHOP NOW</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+   <section class="container">
+      <div class="row">
+         <div class="col-12">
+            <div></div>
+         </div>
+      </div>
+   </section>
+
+
+
+
+
    <script src="../resource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
    <script src="../resource/js/homepage.js"></script>
    <script src="../resource/UI Library/jquery-3.3.1.min.js"></script>
