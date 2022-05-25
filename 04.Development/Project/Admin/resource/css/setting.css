@@ -1,6 +1,5 @@
 .buttonbox{
-height:100% ;
-background-color: var(--main-color);
-text-align: center;
+    height: 100%;
+    background-color: var(--main-color);
+    text-align: center;
 }
-
