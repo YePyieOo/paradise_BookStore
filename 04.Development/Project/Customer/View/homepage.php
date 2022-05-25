@@ -12,9 +12,12 @@
 </head>
 
 <body>
-   <nav class="navbar navbar-expand-lg  nav-bg">
+   <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-         <a class="navbar-brand" href="#">Navbar</a>
+         <a class="navbar-brand" href="#">
+            <img src="../resource/img/main-logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            Paradise Book Store
+         </a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
          </button>
@@ -27,14 +30,14 @@
                   <a class="nav-link" href="#">Search</a>
                </li>
                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                      Contact Us
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <li><a class="dropdown-item fw-bold" href="#">Language</a></li>
-                     <li><a class="dropdown-item fw-bold" href="#">Education</a></li>
-                     <li><a class="dropdown-item fw-" href="#">Novels</a></li>
-                     <li><a class="dropdown-item fw-bold" href="#">Technology</a></li>
+                     <li><a class="dropdown-item fw-bold" href="#">View Profile</a></li>
+                     <li><a class="dropdown-item fw-bold" href="#">Guide</a></li>
+                     <li><a class="dropdown-item fw-bold" href="#">FAQ's</a></li>
+                     <li><a class="dropdown-item fw-bold" href="#">Privacy Policy</a></li>
                      <li><a class="dropdown-item fw-bold" href="#">Cartoons</a></li>
                   </ul>
                </li>
