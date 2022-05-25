@@ -3,3 +3,14 @@
     background-color: var(--main-color);
     text-align: center;
 }
+.customtable{
+    width: 50%;
+
+}
+.custombutton{
+    background-color: var(--btn-color);
+    color: var( --color-black);
+}
+.customimagesize{
+    width: 50%;
+}
