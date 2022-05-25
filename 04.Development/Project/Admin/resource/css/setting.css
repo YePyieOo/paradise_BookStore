@@ -1,9 +1,9 @@
 .buttonbox{
-height:100vh ;
-width: 15% ;
+height:100% ;
 background-color: var(--main-color);
-align-items: center;
 text-align: center;
-justify-content: center;
+}
+button{
+    text-overflow: ellipsis;
 }
 

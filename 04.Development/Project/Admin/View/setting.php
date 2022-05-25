@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,24 +15,34 @@
     <script src="../resource/js/setting.js"></script>
     <script src="../resource/UI Library/jquery-3.3.1.min.js"></script>
 </head>
-<body>
-    <div class="navbarbox">
 
-    <div class="buttonbox d-grid gap-2 col-2">
-        <div>
-            <div class="h4 text-light">Paradise Book</div>
-            <div class="h4 text-light">Store</div>
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-2 buttonbox ">
+                <div class="h3 text-break mt-4 text-light">Paradise Book </div>
+                <div class="h3 text-light">Store</div>
+                <div class="btn-group-vertical container mb-4">
+                    <button type="button" class="btn btn-light text-break mt-3">Dashboard</button>
+                    <button type="button" class="btn btn-light text-break mt-3">Book Info</button>
+                    <button type="button" class="btn btn-light text-break mt-3">Author Info</button>
+                    <button type="button" class="btn btn-light text-break mt-3">Shop Info</button>
+                    <button type="button" class="btn btn-light text-break mt-3">User Info</button>
+                    <button type="button" class="btn btn-light text-break mt-3">Order Info</button>
+                    <button type="button" class="btn btn-light text-break mt-3">Community</button>
+                    <button type="button" class="btn btn-light text-break mt-3">Setting</button>
+                    <button type="button" class="btn btn-light text-break mt-3">Log Out</button>
+
+                </div>
+
+            </div>
+            <div class="col">
+
+            </div>
+
         </div>
-        <button class="btn btn-light ">Dashboard</button>
-        <button class="btn btn-light  ">Book Info</button>
-        <button class="btn btn-light ">Author Info</button>
-        <button class="btn btn-light ">Shop Info</button>
-        <button class="btn btn-light ">User Info</button>
-        <button class="btn btn-light ">Order Info</button>
-        <button class="btn btn-light  ">Community</button>
-        <button class="btn btn-light  ">Setting</button>
-        <button class="btn btn-light ">Log Out</button>
-    </div>
     </div>
 </body>
+
 </html>
