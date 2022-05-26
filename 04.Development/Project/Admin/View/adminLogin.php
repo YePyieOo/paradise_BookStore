@@ -13,7 +13,7 @@
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
-   <div class="container mt-3">
+   <div class="container mt-3 bgcolor">
       <h2 class="text-center title">Admin Login</h2>
       <form action="/action_page.php">
          <div class="mb-5 mt-4">
