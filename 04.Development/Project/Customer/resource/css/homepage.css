@@ -1,7 +1,7 @@
 :root {
    --primary-darkblue: #1f4287;
    --secondary-lightblue: #1f4287;
-   --bg-lightblue:#3e3e
+   --bg-lightblue: #3e3e;
    --font-color1: #484343;
    --font-color2: #595e68;
    --yellow-icon: #f4d221;
@@ -16,9 +16,20 @@
    border-radius: 1.25rem;
 }
 .secondary-bg {
-background-color: var(--bg-lightblue);
+   width: 540px;
+   height: 300px;
 }
 
 .shop-now {
    width: 200px;
+}
+
+.img-slide1 {
+   width: 540px;
+   height: 300px;
+}
+
+.img-slide2 {
+   width: 500px;
+   height: 300px;
 }

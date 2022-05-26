@@ -9,6 +9,8 @@
    <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
    <link rel="stylesheet" href="../resource/css/style.css" />
    <link rel="stylesheet" href="../resource/css/homepage.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+   <link rel="stylesheet" href="../resource/UI Library/fontawesome-free/css/all.min.css">
 </head>
 
 <body>
@@ -78,38 +80,21 @@
       </div>
    </nav>
 
-   <section id="welcome-section" class="container mt-5 ">
+   <section id="welcome-section" class="container mt-5  w-100 vh-100 align-top">
       <div class="row pt-5">
-         <div class="col-12 col-lg-5">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <img src="../resource/img/main slider_1.png" class="d-block w-100 h-100" alt="..." />
-                  </div>
-
-                  <div class="carousel-item">
-                     <img src="../resource/img/main slider_2.png" class="d-block w-100 h-100" alt="..." />
-                  </div>
-
-                  <div class="carousel-item">
-                     <img src="../resource/img/book cover/js" class="d-block w-100 h-100" alt="..." />
-                  </div>
+         <div class="col-12 col-lg-6 ps-5 pb-5">
+            <div class="slider secondary-bg">
+               <div class="">
+                  <img class="img-slide1" src="../resource/img/main slider_1.png" alt="">
                </div>
-               <button class="carousel-control-prev text-danger" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-               </button>
-               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden text-danger">Next</span>
-               </button>
+               <div>
+                  <img class="img-slide2" src="../resource/img/main slider_2.png" alt="">
+               </div>
             </div>
          </div>
-
          <div class="col-12 col-lg-1"></div>
-
-         <div class="col-12 col-lg-6">
-            <div class="">
+         <div class="col-12 col-lg-5">
+            <div class="pt-5">
                <h3 class="font-color-primary">CHOOSE YOUR BRAIN FOOD</h3>
                <h1 class="fw-bold text-primary">BOOK IN STORE</h1>
                <p class="">Language / Education / Novels / Technology / Cartoons</p>
@@ -118,26 +103,19 @@
          </div>
       </div>
    </section>
-
-
-
-   <section class="container">
-      <div class="row">
-         <div class="col-12">
-            <div></div>
-         </div>
-      </div>
-   </section>
-
-
-
-
-
-   <script src="../resource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
    <script src="../resource/js/homepage.js"></script>
-   <script src="../resource/UI Library/jquery-3.3.1.min.js"></script>
+   <script src="../resource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   <script src="../resource/UI Library/fontawesome-free/js/all.min.js"></script>
+   <script type="text/javascript">
+      $(".slider").slick({
+         prevArrow: '<span class="priv_arrow btn  btn-primary "><i class="fas fa-angle-left"></i></span>',
+         nextArrow: '<span class="next_arrow btn btn-primary "><i class="fas fa-angle-right"></i></span>'
+      });
+   </script>
 </body>
 
 </html>
