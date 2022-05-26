@@ -39,14 +39,21 @@
     </div>
     <div class="col-xl-8 col-md-7 col-sm-6 col-5 offset-xl-3 offset-md-4 offset-sm-5 offset-6">
     <div class="row mt-4">
-        <button class="btn col-md-2 col-3 offset-md-2 offset-1 overflow-hidden btn-outline-primary">Site Master</button>
-        <button class="btn col-md-2 col-3 offset-md-1 offset-1 overflow-hidden btn-outline-primary">App Master</button>
-        <button class="btn col-md-2 col-3 offset-md-1 offset-1 overflow-hidden btn-outline-primary">Login Master</button>
-        
 
+        
+  <div class="btn-group " role="group" aria-label="Basic radio toggle button group">
+  <input type="radio" class="btn-check custom" name="btnradio" id="btnradio1" autocomplete="off" checked>
+  <label class="btn btn-outline-primary " for="btnradio1">Radio 1</label>
+
+  <input type="radio" class="btn-check " name="btnradio" id="btnradio2" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+
+  <input type="radio" class="btn-check " name="btnradio" id="btnradio3" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+</div>
     </div>
-    <div class="offset-md-2 offset-0 mt-5 ">
-    <table class="table table-striped table-sm customtable">
+    <div class="mt-5 ">
+    <table class="table table-striped table-sm ">
         <tr>
             <th>No</th>
             <th>Name</th>
@@ -71,7 +78,7 @@
             <td><button class="btn btn-outline-primary "><ion-icon name="create"></ion-icon></button>   <button class="btn btn-outline-danger ms-1"> <ion-icon name="trash-sharp"></ion-icon></button></td>
         </tr>
     </table>
-    <button class="btn btn-sm offset-4 custombutton">ADD Category</button>
+    <button class="btn btn-sm offset-10 custombutton">ADD Category</button>
     </div>
 
 
@@ -103,6 +110,147 @@
         </tr>
         </table>
         <button class="btn btn-sm offset-10 custombutton">ADD Guide</button>
+    </div>
+
+
+    <div class=" mt-5 ">
+    <table class="table table-striped table-sm">
+        <tr>
+            <th>No</th>
+            <th>City/Township</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Monywa</td>
+            <td>3000MMK</td>
+            <td><button class="btn btn-outline-primary "><ion-icon name="create"></ion-icon></button>   <button class="btn btn-outline-danger ms-1"> <ion-icon name="trash-sharp"></ion-icon></button></td>
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td>Yangon</td>
+            <td>3000MMK</td>
+            <td><button class="btn btn-outline-primary "><ion-icon name="create"></ion-icon></button>   <button class="btn btn-outline-danger ms-1"> <ion-icon name="trash-sharp"></ion-icon></button></td>
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>Mandalay</td>
+            <td>3000MMK</td>
+            <td><button class="btn btn-outline-primary "><ion-icon name="create"></ion-icon></button>   <button class="btn btn-outline-danger ms-1"> <ion-icon name="trash-sharp"></ion-icon></button></td>
+        </tr>
+    </table>
+    <button class="btn btn-sm offset-10 custombutton">ADD Delivery Fee</button>
+    </div>
+
+
+    <div class=" mt-5 ">
+    <table class="table table-striped table-sm">
+        <tr>
+            <th>No</th>
+            <th>Title</th>
+            <th>Paragraph</th>
+            <th>Actions</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Delivery</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro </td>
+            <td><button class="btn btn-outline-primary "><ion-icon name="create"></ion-icon></button>   <button class="btn btn-outline-danger mt-1"> <ion-icon name="trash-sharp"></ion-icon></button></td>
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td>Delivery</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro</td>
+            <td><button class="btn btn-outline-primary "><ion-icon name="create"></ion-icon></button>   <button class="btn btn-outline-danger mt-1"> <ion-icon name="trash-sharp"></ion-icon></button></td>
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>Delivery</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro </td>
+            <td><button class="btn btn-outline-primary "><ion-icon name="create"></ion-icon></button>   <button class="btn btn-outline-danger mt-1"> <ion-icon name="trash-sharp"></ion-icon></button></td>
+        </tr>
+    </table>
+    <button class="btn btn-sm offset-10 custombutton">ADD Service</button>
+    </div>
+
+
+
+    <div class=" mt-5 ">
+    <table class="table table-striped table-sm">
+        <tr>
+            <th>No</th>
+            <th>Title</th>
+            <th>Paragraph</th>
+            <th>Actions</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Delivery &payment</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro </td>
+            <td><button class="btn btn-outline-primary "><ion-icon name="create"></ion-icon></button>   <button class="btn btn-outline-danger mt-1"> <ion-icon name="trash-sharp"></ion-icon></button></td>
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td>Buying</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro</td>
+            <td><button class="btn btn-outline-primary "><ion-icon name="create"></ion-icon></button>   <button class="btn btn-outline-danger mt-1"> <ion-icon name="trash-sharp"></ion-icon></button></td>
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>Delivery</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro </td>
+            <td><button class="btn btn-outline-primary "><ion-icon name="create"></ion-icon></button>   <button class="btn btn-outline-danger mt-1"> <ion-icon name="trash-sharp"></ion-icon></button></td>
+        </tr>
+    </table>
+    <button class="btn btn-sm offset-10 custombutton">ADD Privacy Policy</button>
+    </div>
+
+
+    <div class=" mt-5 ">
+    <table class="table table-striped table-sm">
+        <tr>
+            <th>No</th>
+            <th>Category</th>
+            <th>Questions</th>
+            <th>Answers</th>
+            <th>Actions</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Delivery</td>
+            <td> Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </td>
+            <td><button class="btn btn-outline-primary "><ion-icon name="create"></ion-icon></button>   <button class="btn btn-outline-danger mt-1"> <ion-icon name="trash-sharp"></ion-icon></button></td>
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td>Delivery</td>
+            <td> Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </td>
+            <td><button class="btn btn-outline-primary "><ion-icon name="create"></ion-icon></button>   <button class="btn btn-outline-danger mt-1"> <ion-icon name="trash-sharp"></ion-icon></button></td>
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>Delivery</td>
+            <td> Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </td>
+            <td><button class="btn btn-outline-primary "><ion-icon name="create"></ion-icon></button>   <button class="btn btn-outline-danger mt-1"> <ion-icon name="trash-sharp"></ion-icon></button></td>
+        </tr>
+    </table>
+    <button class="btn btn-sm offset-10 custombutton">ADD FAQs</button>
     </div>
 
     </div>
