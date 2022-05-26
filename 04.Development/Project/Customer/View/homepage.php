@@ -81,8 +81,28 @@
    <section id="welcome-section" class="container mt-5 ">
       <div class="row pt-5">
          <div class="col-12 col-lg-5">
-            <div class="">
-               <img src="../resource/img/main slider_1.png" class="img-fluid" alt="" />
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img src="../resource/img/main slider_1.png" class="d-block w-100 h-100" alt="..." />
+                  </div>
+
+                  <div class="carousel-item">
+                     <img src="../resource/img/main slider_2.png" class="d-block w-100 h-100" alt="..." />
+                  </div>
+
+                  <div class="carousel-item">
+                     <img src="../resource/img/book cover/js" class="d-block w-100 h-100" alt="..." />
+                  </div>
+               </div>
+               <button class="carousel-control-prev text-danger" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden text-danger">Next</span>
+               </button>
             </div>
          </div>
 
