@@ -154,10 +154,14 @@
    <section class="container" id="menu">
       <div class="row justify-content-evenly py-5">
          <div class="my-5"></div>
+         <hr>
          <div class="col-12">
+
             <div class="mb-5">
+
+
                <div class="text-center">
-                  <h3 class="fw-bold">NEW BOOKS </h3>
+                  <h2 class="fw-bold">NEW BOOKS </h2>
                </div>
             </div>
          </div>
@@ -185,13 +189,57 @@
 
          <div class="col-6 col-lg-3 col-xl-2">
             <div class="card mb-5 mb-lg-0 card-width">
-               <img src="../resource/img/book cover/laravelei.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
+               <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
                <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                  <p class="card-title fw-bold mb-0">Laravel</p>
+                  <p class="card-title fw-bold mb-0 font-color-primary">JavaScript</p>
                   <small>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
                      <i class="fa-solid fa-star"></i>
                      <i class="fa-solid fa-star"></i>
+                  </small>
+                  <small class="card-text d-block mb-3 font-color-secondary">
+                     Ei Maung
+                  </small>
+                  <div class="d-flex justify-content-between align-items-center">
+                     <p class="fw-bold mb-0 font-color-primary">39999 MMK</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-6 col-lg-3 col-xl-2">
+            <div class="card mb-5 mb-lg-0 card-width">
+               <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
+               <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                  <p class="card-title fw-bold mb-0 font-color-primary">JavaScript</p>
+                  <small>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
                      <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                  </small>
+                  <small class="card-text  d-block mb-3 font-color-secondary">
+                     Ei Maung
+                  </small>
+                  <div class="d-flex justify-content-between align-items-center">
+                     <p class="fw-bold mb-0 font-color-primary">000 MMK</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-6 col-lg-3 col-xl-2">
+            <div class="card mb-5 mb-lg-0 card-width">
+               <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
+               <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                  <p class="card-title fw-bold mb-0">JavaScript</p>
+                  <small>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
                      <i class="fa-solid fa-star"></i>
                      <i class="fa-solid fa-star"></i>
                   </small>
@@ -199,7 +247,7 @@
                      Ei Maung
                   </small>
                   <div class="d-flex justify-content-between align-items-center">
-                     <p class="fw-bold mb-0">39999 MMK</p>
+                     <p class="fw-bold mb-0 font-color-primary">999 MMK</p>
                   </div>
                </div>
             </div>
@@ -207,44 +255,21 @@
 
          <div class="col-6 col-lg-3 col-xl-2">
             <div class="card mb-5 mb-lg-0 card-width">
-               <img src="../resource/img/book cover/novel15.jpg" class="img-fluid w-75 mx-auto mt-3" alt="" />
+               <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
                <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                  <p class="card-title fw-bold mb-0">kcjnec</p>
-                  <small class="card-text text-black-50 d-block mb-3">
-                     jncecec
+                  <p class="card-title fw-bold mb-0 font-color-primary">JavaScript</p>
+                  <small>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
                   </small>
-                  <div class="d-flex justify-content-between align-items-center">
-                     <p class="fw-bold mb-0">000 MMK</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-
-         <div class="col-6 col-lg-3 col-xl-2">
-            <div class="card mb-5 mb-lg-0 card-width">
-               <img src="../resource/img/book cover/bsei - Copy.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
-               <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                  <p class="card-title fw-bold mb-0">wwwwww</p>
-                  <small class="card-text text-black-50 d-block mb-3">
-                     Sbnxcjhbn
-                  </small>
-                  <div class="d-flex justify-content-between align-items-center">
-                     <p class="fw-bold mb-0">999 MMK</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-
-         <div class="col-6 col-lg-3 col-xl-2">
-            <div class="card mb-5 mb-lg-0 card-width">
-               <img src="../resource/img/book cover/nove;3.jpg" class="img-fluid w-75 mx-auto mt-3" alt="" />
-               <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                  <p class="card-title fw-bold mb-0">Hello</p>
-                  <small class="card-text text-black-50 d-block mb-3">
+                  <small class="card-text d-block mb-3 font-color-secondary">
                      Hello
                   </small>
                   <div class="d-flex justify-content-between align-items-center">
-                     <p class="fw-bold mb-0">3000 MMK</p>
+                     <p class="fw-bold mb-0 font-color-primary">3000 MMK</p>
                   </div>
                </div>
             </div>
