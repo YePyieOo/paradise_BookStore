@@ -9,6 +9,8 @@
    <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
    <link rel="stylesheet" href="../resource/css/style.css" />
    <link rel="stylesheet" href="../resource/css/homepage.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+   <link rel="stylesheet" href="../resource/UI Library/fontawesome-free/css/all.min.css">
 </head>
 
 <body>
@@ -21,8 +23,6 @@
          <button class="navbar-toggler font-color-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <ion-icon class="font-color-primary fs-2" name="menu-outline"></ion-icon>
          </button>
-
-
          <button class="dropdown btn commom-bg ms-4 categories">
             <a class="text-decoration-none fs-6 dropdown-toggle  text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                <ion-icon class="pe-2 pt-2" name="apps-outline"></ion-icon>
@@ -36,8 +36,6 @@
                <li><a class="dropdown-item" href="#">Cartoons</a></li>
             </ul>
          </button>
-
-
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0 ">
                <li class="nav-item me-4">
@@ -65,9 +63,7 @@
                      <li><a class="dropdown-item" href="#">FAQ's</a></li>
                   </ul>
                </li>
-
             </ul>
-
             <div class=" d-flex  justify-content-center align-items-center  font-color-primary ">
                <ion-icon class="me-4" name="cart-outline"></ion-icon>
                <ion-icon class="me-4" name="person-outline"></ion-icon>
@@ -77,19 +73,21 @@
          </div>
       </div>
    </nav>
-
-   <section id="welcome-section" class="container mt-5 ">
+   <section id="welcome-section" class="container mt-5 w-100 ">
       <div class="row pt-5">
-         <div class="col-12 col-lg-5">
-            <div class="">
-               <img src="../resource/img/main slider_1.png" class="img-fluid" alt="" />
+         <div class="col-12 col-lg-6 ps-5 pb-5">
+            <div class="slider secondary-bg">
+               <div class="">
+                  <img class="img-slide1" src="../resource/img/main slider_1.png" alt="">
+               </div>
+               <div>
+                  <img class="img-slide2" src="../resource/img/main slider_2.png" alt="">
+               </div>
             </div>
          </div>
-
          <div class="col-12 col-lg-1"></div>
-
-         <div class="col-12 col-lg-6">
-            <div class="">
+         <div class="col-12 col-lg-5">
+            <div class="pt-5">
                <h3 class="font-color-primary">CHOOSE YOUR BRAIN FOOD</h3>
                <h1 class="fw-bold text-primary">BOOK IN STORE</h1>
                <p class="">Language / Education / Novels / Technology / Cartoons</p>
@@ -99,25 +97,202 @@
       </div>
    </section>
 
+   <section id="blueBox" class="container my-5">
+      <div class="row pt-3">
+         <div class="col-12 col-lg-4 ">
+            <div class=" container commom-bg rounded">
+               <div class="row align-items-center justify-content-center">
+                  <div class="col-3">
+                     <button class="btn btn-primary rounded-circle">
+                        <i class="fas fa-phone-alt"></i>
+                     </button>
+                  </div>
+                  <div class="col-9">
+                     <p class="text-white m-0 pt-3">24/7 CUSTOMER SUPPORT</p>
+                     <p class="text-white m-0 pb-3">09:9999999999</p>
+                  </div>
+               </div>
+            </div>
+         </div>
 
+         <div class="col-12 col-lg-4">
+            <div class="container commom-bg rounded">
+               <div class="row align-items-center justify-content-center">
+                  <div class="col-3">
+                     <button class="btn btn-primary rounded-circle">
+                        <i class="fas fa-globe-africa"></i>
+                     </button>
+                  </div>
+                  <div class="col-9">
+                     <p class="text-white m-0 pt-3">QUICK DELIERY</p>
+                     <p class="text-white m-0 pb-3">Most Products are free delivery</p>
+                  </div>
+               </div>
+            </div>
+         </div>
 
-   <section class="container">
-      <div class="row">
-         <div class="col-12">
-            <div></div>
+         <div class="col-12 col-lg-4  col-sm-12   ">
+            <div class="container commom-bg rounded">
+               <div class="row align-items-center justify-content-center">
+                  <div class="col-3">
+                     <button class="btn btn-primary rounded-circle">
+                        <i class="fas fa-book"></i>
+                     </button>
+                  </div>
+                  <div class="col-9">
+                     <p class="text-white m-0 pt-3">GOOD PRINT PAGE</p>
+                     <p class="text-white m-0 pb-3">We Use Good Quality</p>
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
    </section>
 
 
 
+   <section class="container" id="menu">
+      <div class="row justify-content-evenly py-5">
+         <div class="my-5"></div>
+         <hr>
+         <div class="col-12">
+
+            <div class="mb-5">
 
 
-   <script src="../resource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+               <div class="text-center">
+                  <h2 class="fw-bold">NEW BOOKS </h2>
+               </div>
+            </div>
+         </div>
+         <div class="col-6 col-lg-3 col-xl-2">
+            <div class="card mb-5 mb-lg-0 card-width">
+               <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
+               <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                  <p class="card-title fw-bold mb-0 font-color-primary">JavaScript</p>
+                  <small>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                  </small>
+                  <small class="card-text  d-block mb-3 font-color-secondary ">
+                     Ei Maung
+                  </small>
+                  <div class="d-flex d justify-content-between align-items-center">
+                     <p class="fw-bold mb-0 font-color-primary">5000 MMK</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-6 col-lg-3 col-xl-2">
+            <div class="card mb-5 mb-lg-0 card-width">
+               <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
+               <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                  <p class="card-title fw-bold mb-0 font-color-primary">JavaScript</p>
+                  <small>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                  </small>
+                  <small class="card-text d-block mb-3 font-color-secondary">
+                     Ei Maung
+                  </small>
+                  <div class="d-flex justify-content-between align-items-center">
+                     <p class="fw-bold mb-0 font-color-primary">39999 MMK</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-6 col-lg-3 col-xl-2">
+            <div class="card mb-5 mb-lg-0 card-width">
+               <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
+               <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                  <p class="card-title fw-bold mb-0 font-color-primary">JavaScript</p>
+                  <small>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                  </small>
+                  <small class="card-text  d-block mb-3 font-color-secondary">
+                     Ei Maung
+                  </small>
+                  <div class="d-flex justify-content-between align-items-center">
+                     <p class="fw-bold mb-0 font-color-primary">000 MMK</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-6 col-lg-3 col-xl-2">
+            <div class="card mb-5 mb-lg-0 card-width">
+               <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
+               <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                  <p class="card-title fw-bold mb-0">JavaScript</p>
+                  <small>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                  </small>
+                  <small class="card-text text-black-50 d-block mb-3">
+                     Ei Maung
+                  </small>
+                  <div class="d-flex justify-content-between align-items-center">
+                     <p class="fw-bold mb-0 font-color-primary">999 MMK</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-6 col-lg-3 col-xl-2">
+            <div class="card mb-5 mb-lg-0 card-width">
+               <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
+               <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                  <p class="card-title fw-bold mb-0 font-color-primary">JavaScript</p>
+                  <small>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star text-warning"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                  </small>
+                  <small class="card-text d-block mb-3 font-color-secondary">
+                     Hello
+                  </small>
+                  <div class="d-flex justify-content-between align-items-center">
+                     <p class="fw-bold mb-0 font-color-primary">3000 MMK</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   </div>
+   </section>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
    <script src="../resource/js/homepage.js"></script>
-   <script src="../resource/UI Library/jquery-3.3.1.min.js"></script>
+   <script src="../resource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   <script src="../resource/UI Library/fontawesome-free/js/all.min.js"></script>
+   <script type="text/javascript">
+      $(".slider").slick({
+         prevArrow: '<span class="priv_arrow btn  btn-primary "><i class="fas fa-angle-left"></i></span>',
+         nextArrow: '<span class="next_arrow btn btn-primary "><i class="fas fa-angle-right"></i></span>'
+      });
+   </script>
 </body>
 
 </html>
