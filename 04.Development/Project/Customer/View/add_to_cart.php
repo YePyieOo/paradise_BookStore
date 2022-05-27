@@ -9,7 +9,7 @@
    <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
    <link rel="stylesheet" href="../resource/css/style.css" />
    <link rel="stylesheet" href="../resource/css/homepage.css" />
-   <link rel="stylesheet" href="../resource/css/categories.css">
+   <link rel="stylesheet" href="../resource/css/add_to_cart.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
    <link rel="stylesheet" href="../resource/UI Library/fontawesome-free/css/all.min.css">
 </head>
@@ -75,51 +75,55 @@
       </div>
    </nav>
    <!-- nav -->
-   <div class="container-fluid header d-flex justify-content-between align-items-center p-4">
-            <h3>Language</h3>
+   <div class="container header d-flex justify-content-between align-items-center p-4">
+            <h3>Cart List</h3>
             <div>
-                <b>Home</b> -> Language
+                <b>Home</b> -> Detail Book -> Book Cart
             </div>
         </div>
-    </div>
-    <div class="container-fluid header  d-flex justify-content-between align-items-center ">
-        <div class="container">
-            <div class="row g-0">
-                <?php for ($i = 0; $i < 12; $i++) : ?>
-                    <div class="col-12 col-md-6 col-lg-3 text-light header d-flex justify-content-between align-items-center">
-                        <div class="my-card">
-                            <div class="my-card-img">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXg49v2amwPoDctZcQClmNEYTIlAHx_0SbHQ&usqp=CAU" alt="">
-                            </div>
-                            <div class="my-card-info">
-                                <h5>Book Name</h5>
-                                <div class="mb-2">
-                                    <span style="font-size:x-small">
-                                        <?php for ($s = 0; $s < 5; $s++) : ?>
-                                            <?php $star = 3; ?>
-                                            <?php if ($star > $s) : ?>
-                                                <i class="fa-solid fa-star"></i>
-                                            <?php else : ?>
-                                                <i class="fa-regular fa-star"></i>
-                                            <?php endif ?>
-                                        <?php endfor ?>
-                                    </span><br>
-                                    <span style="font-size:x-small">Author Name</span>
-                                </div>
-                                <p style="font-weight:500 ;">3500 MMK</p>
-                                <button class="btn btn-primary card-button px-1 rounded-1 me-1"><i class="fa-solid fa-cart-shopping me-1"></i>add
-                                    to
-                                    cart</button>
-                                <span class="btn btn-primary card-button"><i class="fa-solid fa-eye"></i> 4</span>
-                            </div>
-                        </div>
-                    </div>
-                <?php endfor ?>
-            </div>
+        <h5 class="fw-bolder text-primary">Order History</h5>
+        <div >
+        <table class="table mt-5">
+  <thead>
+    <tr>
+      <th scope="col">Items</th>
+      <th scope="col"></th>
+      <th scope="col">Price</th>
+      <th scope="col">Quatity</th>
+      <th scope="col">Total</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><img src="./education.jpg" alt="" class="images"></th>
+      <td>Book Name<br> Author Name</td>
+      <td>1000</td>
+      <td>2</td>
+      <td>2000</td>
+      <td><ion-icon name="close-circle-outline"></ion-icon></td>
+    </tr>
+    <tr>
+      <th scope="row"><img src="./education.jpg" alt=""></th>
+      <td>Book Name<br> Author Name</td>
+      <td>4000</td>
+      <td>1</td>
+      <td>4000</td>
+      <td><ion-icon name="close-circle-outline"></ion-icon></td>
+    </tr>
+    <tr>
+      <th scope="row"><img src="./education.jpg" alt=""></th>
+      <td>Book Name<br> Author Name</td>
+      <td>5000</td>
+      <td>2</td>
+      <td>10000</td>
+      <td><ion-icon name="close-circle-outline"></ion-icon></td>
+    </tr>
+  </tbody>
+</table>
         </div>
-    </div>
-    <!-- footer -->
-    <footer id="footer" class="container-fluid commom-bg">
+   <!-- footer -->
+   <footer id="footer" class="container-fluid commom-bg">
       <div class="row">
          <div class="col-12 col-lg-4 ps-5 pt-4">
             <div class="">
