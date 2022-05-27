@@ -276,9 +276,6 @@
          </div>
       </div>
    </section>
-   </div>
-   </section>
-
    <footer id="footer" class="container-fluid commom-bg">
       <div class="row">
          <div class="col-12 col-lg-4 ps-5 pt-4">
