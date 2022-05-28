@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Author Info</title>
+    <title>Add Author</title>
     <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../resource/css/style.css" />
     <link rel="stylesheet" href="../resource/css/dashboard.css" />
@@ -20,11 +20,10 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-        <div class="col-xl-2 col-md-3 col-sm-4 col-5 buttonbox  position-fixed" id="navbar">
-                
-            </div>
-            <div class="col-xl-8 col-md-7 col-sm-6 col-5 offset-xl-3 offset-md-4 offset-sm-5 offset-6 ">
-                <button class="mt-4 bg-warning col-1"><a href="../View/authorInfo.php">Back</a></button>
+            <div id="navbar" class="my-nav"></div>
+            <!-- Insert Author -->
+            <div class="col-8 offset-3">
+                <button class="custombutton btn btn-sm mt-4 col-1 ms-4"><a href="../View/authorInfo.php" class="fw-bold text-dark text-wrap">Back</a></button>
                 <p class="h3 mt-4 ms-4">Insert Author</p>
                 <form>
                     <div class="row container col-md-7 mt-3 ">
@@ -40,7 +39,7 @@
                         <label for="comment">Biography</label>
                         <textarea class="form-control ms-2" rows="8" id="comment" name="text"></textarea>
                         
-                        <button type="submit" class="btn-warning fw-bold mt-4">Save</button>
+                        <button type="submit" class="custombutton btn fw-bold mt-4 ms-1">Save</button>
                         
                         
                         

@@ -20,13 +20,11 @@
     <div class="container-fluid">
         <div class="row">
         <!-- Navigation Bar -->
-            <div class="col-xl-2 col-md-3 col-sm-4 col-5 buttonbox position-fixed " id="navbar">
-                
-            </div>
-            <!-- Input Box -->
-            <div class="col-xl-8 col-md-7 col-sm-6 col-5 offset-xl-3 offset-md-4 offset-sm-5 offset-6 mt-3">
-                <button class="mt-4 bg-warning col-1"><a href="../View/shopInfo.php" class="col-1">Back</a></button>
-                <p class="h4 mt-4 ms-4">Inset Shop</p>
+        <div id="navbar" class="my-nav"></div>
+            <!--Add Shop-->
+            <div class="col-8 offset-3">
+                <button class="custombutton btn mt-4 col-1 ms-4"><a href="../View/shopInfo.php" class="col-1 text-dark fw-bold">Back</a></button>
+                <p class="h4 mt-4 ms-4">Insert Shop</p>
                 <form>
                     <div class="row container col-md-8 mt-3 ">
                         <div class="row">
@@ -63,7 +61,7 @@
                             <label for="comment">Address</label>
                             <textarea class="form-control ms-2" rows="8" id="comment" name="text"></textarea>
                         </div>
-                        <button type="submit" class="btn-warning fw-bold mt-4">Save</button>
+                        <button type="submit" class="custombutton btn fw-bold mt-4">Save</button>
                     </div>
                 </form>
             </div>
