@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../resource/css/dashboard.css" />
     <link rel="stylesheet" href="../resource/css/common.css">
     <script src="../resource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="../resource/UI Library/chart_js/Chart.min.js"></script>
     <script src="../resource/UI Library/jquery-3.3.1.min.js"></script>
     <script src="../resource/js/common.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -19,21 +20,16 @@
 
 <body>
     <div class="container-fluid">
-
         <div class="row">
-
             <!-- Navbar Start -->
-            <div class="col-xl-2 col-md-3 col-sm-4 col-5 buttonbox position-fixed" id="navbar">
-
-            </div>
-
-            <!-- Dashboard Start -->
-            <div class="col-xl-8 col-md-7 col-sm-6 col-5 offset-xl-3 offset-md-4 offset-sm-5 offset-6 mt-3">
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button class="admin-log me-md-2">
+            <div id="navbar" class="my-nav"></div>
+            <!-- Dashboard -->
+            <div class="col-8 offset-3">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                    <button class="admin-log me-md-3 text-primary ">
                         <ion-icon name="person" class="fs-3"></ion-icon>
                     </button>
-                    <button class="" type="button">CustomerPage</button>
+                    <a href="#" class="me-md-5 mt-2">CustomerPage</a>
                 </div>
                 <div class="box">
                     <div class="box1">

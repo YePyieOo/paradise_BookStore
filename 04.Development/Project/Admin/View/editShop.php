@@ -8,7 +8,7 @@
     <title>Edit Shop</title>
     <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../resource/css/style.css" />
-    <link rel="stylesheet" href="../resource/css/addShop.css">
+    <link rel="stylesheet" href="../resource/css/common.css">
     <script src="../resource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <script src="../resource/UI Library/jquery-3.3.1.min.js"></script>
     <script src="../resource/js/common.js"></script>
@@ -19,15 +19,12 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <!-- Navbar Start -->
-            <div class="col-xl-2 col-md-3 col-sm-4 col-5 buttonbox position-fixed" id="navbar">
-
-            </div>
-            <!-- Edit Shop -->
-            <div class="col-xl-8 col-md-7 col-sm-6 col-5 offset-xl-3 offset-md-4 offset-sm-5 offset-6 mt-3">
-                <button class="mt-4 bg-warning col-1"><a href="../View/shopInfo.php" class="col-1">Back</a></button>
+        <div id="navbar" class="my-nav"></div>
+            <!--Input Box for Editting Shop-->
+            <div class="col-8 offset-3">
+                <button class="custombutton btn mt-4 col-1 ms-4"><a href="../View/shopInfo.php" class="col-1 text-dark fw-bold">Back</a></button>
                 <form>
-                    <div class="row container col-md-7 mt-4 ">
+                    <div class="row container col-md-8 mt-3 ">
                         <div class="row">
                             <div class="col mb-3 mt-3">
                                 <label for="email" class="form-label">Shop</label><br>
@@ -54,15 +51,15 @@
                         </div>
                         <div class="row">
                             <div class="col mb-3 mt-3 ">
-                                <label for="email" class="form-label">Phone</label>
+                                <label for="email" class="form-label">Image</label>
                                 <input type="file" class="form-control" id="email" name="">
                             </div>
                         </div>
                         <div class="row">
                             <label for="comment">Address</label>
-                            <textarea class="form-control" rows="8" id="comment" name="text"></textarea>
+                            <textarea class="form-control ms-2" rows="8" id="comment" name="text"></textarea>
                         </div>
-                        <button type="submit" class="btn-warning fw-bold mt-4">Save</button>
+                        <button type="submit" class="custombutton btn fw-bold mt-4">Save</button>
                     </div>
                 </form>
             </div>

@@ -22,15 +22,12 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <!-- Navigation Bar -->
-            <div class="col-xl-2 col-md-3 col-sm-4 col-5 buttonbox position-fixed " id="navbar">
+        <div id="navbar" class="my-nav"></div>
+            <!-- Author List-->
+            <div class="col-8 offset-3">
+                <p class="h3 mt-4">Author List</p>
                 
-            </div>
-            <!-- Input Data Box -->
-            <div class="col-xl-8 col-md-7 col-sm-6 col-5 offset-xl-3 offset-md-4 offset-sm-5 offset-6 mt-3">
-                <p class="h3 mt-4 ms-3">Author List</p>
-                
-                <table class="table table-striped table-sm mt-3">
+                <table class="table table-striped table-sm mt-4">
                     <tr>
                         <th>No</th>
                         <th class="col-1">Image</th>
@@ -78,7 +75,7 @@
                         </td>
                     </tr>
                 </table>
-                <button class="btn-sm offset-10  bg-warning  col-2"><a href="../View/addAuthor.php">ADD BOOK</a></button>
+                <button class="custombutton btn-sm offset-10  bg-warning  col-2"><a href="../View/addAuthor.php" class="fw-bold text-dark">ADD AUTHOR</a></button>
             </div>
         </div>
     </div>
