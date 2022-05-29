@@ -5,7 +5,7 @@ $(document).ready(function(){
         $(".stm").addClass("closemaster");
         $(".lgm").addClass("closemaster");
         $(".custom").removeClass("closemaster");
-        $(".custom").addClass("viewmaster");
+        $(".custom").addClass("viewmaster") ;
         
        
     } else if($(this).text()=="Site Master"){
