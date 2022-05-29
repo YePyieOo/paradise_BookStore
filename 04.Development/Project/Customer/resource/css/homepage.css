@@ -46,3 +46,21 @@
    width: 700px;
    height: 180px;
 }
+
+.bg-lightBlue {
+   background-color: #ebf1fd;
+}
+
+.book-card-lg {
+   width: 250px;
+   height: 500px;
+}
+
+.book-card-lg2 {
+   width: 320px;
+   height: 500px;
+}
+
+.circle-pink {
+   background-color: red;
+}
