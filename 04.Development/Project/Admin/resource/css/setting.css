@@ -12,4 +12,17 @@
 }
 .customimagesize{
     width: 50%;
+    
+}
+.viewmaster{
+    display: block;
+}
+.closemaster{
+    display: none;
+}
+.slideimg{
+    width: 40%;
+}
+.customstyle{
+    background-color: var(--input-box-color);
 }
