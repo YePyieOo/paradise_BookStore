@@ -9,18 +9,18 @@
     <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../resource/css/style.css" />
     <link rel="stylesheet" href="../resource/css/setting.css" />
+    <link rel="stylesheet" href="../resource/css/common.css">
     <script src="../resource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <script src="../resource/js/setting.js"></script>
     <script src="../resource/UI Library/jquery-3.3.1.min.js"></script>
+    <script src="../resource/js/common.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
     <div class="container-fluid">
-
-
         <div class="row">
+<<<<<<< HEAD
             <!-- Navbar Start -->
             <div class="col-xl-2 col-md-3 col-sm-4 col-5 buttonbox position-fixed ">
 
@@ -43,9 +43,12 @@
             <!-- Navbar End -->
             <div class="col-xl-8 col-md-7 col-sm-6 col-5 offset-xl-3 offset-md-4 offset-sm-5 offset-6">
             <!-- Select Button Start -->
+=======
+            <div id="navbar"></div>
+
+            <div class="col-8 offset-3 ">
+>>>>>>> origin/main
                 <div class="row mt-4">
-
-
                     <div class="btn-group " role="group" aria-label="Basic radio toggle button group">
                         <input type="radio" class="btn-check custom" name="btnradio" id="btnradio1" autocomplete="off" checked>
                         <label class="btn btn-outline-primary " for="btnradio1">Radio 1</label>

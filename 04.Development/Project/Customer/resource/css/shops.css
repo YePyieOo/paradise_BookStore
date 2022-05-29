@@ -1,11 +1,4 @@
-:root {
-    --primary-color: #1F4287;
-    --accent-color: #EBF1FD;
-    --navbar-color:#fff;
-    --body-color:white;
-
-}
-.b{
+/* .b{
     background-color: var(--body-color);
 }
 .nav{
@@ -13,17 +6,11 @@
 }
 .header {
     background-color: var(--accent-color);
-}
+} */
 img{
-    width: 30%;
-    height: 10vh;
-    object-fit: cover;
-}
-
-.underline{
-    width: 100%;
-    height: 30vh;
-    color: black;
+    width: 15%;
+   
+    
 }
 .my-card {
     border: 0.5px solid #ccc;
@@ -42,15 +29,8 @@ img{
     object-fit: cover;
    
 }
-/* p{
-    font-size: 10px;
-} */
-/* div div h4 div{
-    font-size: 10px;
-} */
-
-icon{
-    color:b ;
+.shop_info{
+    font-size: 15px;
 }
 .my-card-info {
     width: 100%;

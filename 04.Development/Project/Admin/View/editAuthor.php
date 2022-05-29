@@ -19,13 +19,10 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <!-- Navbar Start -->
-            <div class="col-xl-2 col-md-3 col-sm-4 col-5 buttonbox position-fixed" id="navbar">
-
-            </div>
-            <!-- Edit Author -->
-            <div class="col-xl-8 col-md-7 col-sm-6 col-5 offset-xl-3 offset-md-4 offset-sm-5 offset-6 mt-3">
-                <button class="mt-4 bg-warning col-1"><a href="../View/authorInfo.php">Back</a></button>
+        <div id="navbar" class="my-nav"></div>
+            <!--Input Box for Editting Author-->
+            <div class="col-8 offset-3">
+                <button class="custombutton btn mt-4 ms-4 col-1"><a href="../View/authorInfo.php" class="text-dark fw-bold">Back</a></button>
                 <form>
                     <div class="row container col-md-7 mt-4 ">
                         <div class="mb-3 mt-3">
@@ -37,10 +34,10 @@
                             <input type="file" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
                         </div>
 
-                        <label for="comment">Biography</label>
-                        <textarea class="form-control" rows="8" id="comment" name="text"></textarea>
+                        <label for="comment" class="mt-3">Biography</label>
+                        <textarea class="form-control ms-2" rows="8" id="comment" name="text"></textarea>
                         
-                        <button type="submit" class="btn-warning fw-bold mt-4">Save</button>
+                        <button type="submit" class="custombutton btn btn-warning fw-bold mt-4 ms-2">Save</button>
                     </div>
                 </form>
             </div>

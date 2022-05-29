@@ -9,7 +9,7 @@
    <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
    <link rel="stylesheet" href="../resource/css/style.css" />
    <link rel="stylesheet" href="../resource/css/homepage.css" />
-   <link rel="stylesheet" href="../resource/css/categories.css">
+   <link rel="stylesheet" href="../resource/css/shops.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
    <link rel="stylesheet" href="../resource/UI Library/fontawesome-free/css/all.min.css">
 </head>
@@ -75,60 +75,39 @@
       </div>
    </nav>
    <!-- nav -->
-   <div class="container-fluid header d-flex justify-content-between align-items-center p-4">
-      <h3>Language</h3>
-      <div>
-         <b>Home</b> -> Language
-      </div>
-   </div>
-   </div>
-   <div class="container-fluid header  d-flex justify-content-between align-items-center ">
-      <div class="container">
-         <div class="row g-0">
-            <?php for ($i = 0; $i < 12; $i++) : ?>
-               <div class="col-12 col-md-6 col-lg-3 text-light header d-flex justify-content-between align-items-center">
-                  <div class="my-card">
-                     <div class="my-card-img">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXg49v2amwPoDctZcQClmNEYTIlAHx_0SbHQ&usqp=CAU" alt="">
-                     </div>
-                     <div class="my-card-info">
-                        <h5>Book Name</h5>
-                        <div class="mb-2">
-                           <span style="font-size:x-small">
-                              <?php for ($s = 0; $s < 5; $s++) : ?>
-                                 <?php $star = 3; ?>
-                                 <?php if ($star > $s) : ?>
-                                    <i class="fa-solid fa-star"></i>
-                                 <?php else : ?>
-                                    <i class="fa-regular fa-star"></i>
-                                 <?php endif ?>
-                              <?php endfor ?>
-                           </span><br>
-                           <span style="font-size:x-small">Author Name</span>
+   <div class="container header d-flex justify-content-between align-items-center p-4">
+            <h3>Shops</h3>
+            <div>
+                <b>Home</b> -> shop
+            </div>
+        </div>
+        <div class="container d-flex justify-content-between align-items-center p-4 mx-6 col-12 col-md-12 col-lg-4">
+        <button class="btn btn-primary text-light ">Yangon</button>
+        <button class="btn btn-primary text-light">Mandalay</button>
+        <button class="btn btn-primary text-light">Naypyidaw</button>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row g-0">
+                <?php for ($i = 0; $i < 3; $i++) : ?>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="my-card m-5">
+                            <div class="my-card-img">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXg49v2amwPoDctZcQClmNEYTIlAHx_0SbHQ&usqp=CAU" alt="">
+                                <h6><b> Yar Pyae Book Shop</b></h6>
+                                <div class="shop_info">U Tun Lin Chan,Hlae Tan ,Kamayout,Yangon</div>
+                                <div class="shop_info">097665577,0876567899</div>
+                                <div class="shop_info">www.yarpyae.com</div>
+                            </div>
                         </div>
-<<<<<<< HEAD
-                        <p style="font-weight:500 ;">3500 MMK</p>
-                        <button class="btn btn-primary card-button px-1 rounded-1 me-1"><i class="fa-solid fa-cart-shopping me-1"></i>add
-                           to
-                           cart</button>
-                        <span class="btn btn-primary card-button"><i class="fa-solid fa-eye"></i> 4</span>
-                     </div>
-                  </div>
-               </div>
-            <?php endfor ?>
-         </div>
-      </div>
-   </div>
-   <footer id="footer" class="container-fluid commom-bg">
-=======
                     </div>
                 <?php endfor ?>
             </div>
         </div>
     </div>
-    <!-- footer -->
-    <footer id="footer" class="container-fluid commom-bg">
->>>>>>> a29bce31c49de644753bbcf60c341a594402669f
+   <!-- footer -->
+   <footer id="footer" class="container-fluid commom-bg">
       <div class="row">
          <div class="col-12 col-lg-4 ps-5 pt-4">
             <div class="">

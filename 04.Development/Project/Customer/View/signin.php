@@ -9,7 +9,7 @@
    <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
    <link rel="stylesheet" href="../resource/css/style.css" />
    <link rel="stylesheet" href="../resource/css/homepage.css" />
-   <link rel="stylesheet" href="../resource/css/categories.css">
+   <link rel="stylesheet" href="../resource/css/signin.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
    <link rel="stylesheet" href="../resource/UI Library/fontawesome-free/css/all.min.css">
 </head>
@@ -75,60 +75,33 @@
       </div>
    </nav>
    <!-- nav -->
-   <div class="container-fluid header d-flex justify-content-between align-items-center p-4">
-      <h3>Language</h3>
-      <div>
-         <b>Home</b> -> Language
-      </div>
-   </div>
-   </div>
-   <div class="container-fluid header  d-flex justify-content-between align-items-center ">
-      <div class="container">
-         <div class="row g-0">
-            <?php for ($i = 0; $i < 12; $i++) : ?>
-               <div class="col-12 col-md-6 col-lg-3 text-light header d-flex justify-content-between align-items-center">
-                  <div class="my-card">
-                     <div class="my-card-img">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXg49v2amwPoDctZcQClmNEYTIlAHx_0SbHQ&usqp=CAU" alt="">
-                     </div>
-                     <div class="my-card-info">
-                        <h5>Book Name</h5>
-                        <div class="mb-2">
-                           <span style="font-size:x-small">
-                              <?php for ($s = 0; $s < 5; $s++) : ?>
-                                 <?php $star = 3; ?>
-                                 <?php if ($star > $s) : ?>
-                                    <i class="fa-solid fa-star"></i>
-                                 <?php else : ?>
-                                    <i class="fa-regular fa-star"></i>
-                                 <?php endif ?>
-                              <?php endfor ?>
-                           </span><br>
-                           <span style="font-size:x-small">Author Name</span>
-                        </div>
-<<<<<<< HEAD
-                        <p style="font-weight:500 ;">3500 MMK</p>
-                        <button class="btn btn-primary card-button px-1 rounded-1 me-1"><i class="fa-solid fa-cart-shopping me-1"></i>add
-                           to
-                           cart</button>
-                        <span class="btn btn-primary card-button"><i class="fa-solid fa-eye"></i> 4</span>
-                     </div>
-                  </div>
-               </div>
-            <?php endfor ?>
-         </div>
-      </div>
-   </div>
-   <footer id="footer" class="container-fluid commom-bg">
-=======
+   <div class="wrapper">
+        <div class="col-12 col-md-6 mx-auto">
+            <div class="row g-0 flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-6 inner-left">
+                    <div class="text-center m-5">
+                        <h3 class="text-primary mb-3">Sign in</h3>
+                        <form action="">
+                            <input class="form-control mb-3" type="text" name="" id="" placeholder="email">
+                            <input class="form-control mb-3" type="text" name="" id="" placeholder="password">
+                            <button class="btn btn-outline-primary mb-3">Sign in</button>
+                        </form>
+                        <h6 class="text-primary">forget password?</h6>
                     </div>
-                <?php endfor ?>
+                </div>
+                <div class="col-12 col-md-6 inner-right">
+                    <div class="text-center m-5 h-100">
+                        <h2 class="text-white">Welcome To Our Book Store!</h2>
+                        <p class="text-light">New Here!</p>
+                        <button class="btn btn-light text-primary">Sign Up</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
     <!-- footer -->
     <footer id="footer" class="container-fluid commom-bg">
->>>>>>> a29bce31c49de644753bbcf60c341a594402669f
       <div class="row">
          <div class="col-12 col-lg-4 ps-5 pt-4">
             <div class="">
