@@ -5,17 +5,11 @@
 /* .my-img{
     width: 120px;
     height: 120px;
-<<<<<<< HEAD
-    
-}
-
-=======
 } */
 .my-nav{
     
     padding-left: 0px !important;
 }
->>>>>>> origin/main
 .buttonbox{
     height: 120vh;
     background-color: var(--main-color);

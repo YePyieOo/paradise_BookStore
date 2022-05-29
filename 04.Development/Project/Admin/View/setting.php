@@ -135,10 +135,10 @@
                     <div class="mt-5">
                         <table class="table table-striped table-sm">
                             <tr>
-                                <th>No</th>
-                                <th>Image</th>
-                                <th>Guide Paragraph</th>
-                                <th>Actions</th>
+                                <th class="col-1" >No</th>
+                                <th class="col-3">Image</th>
+                                <th class="col-6">Guide Paragraph</th>
+                                <th class="col-2">Actions</th>
                             </tr>
                             <tr>
                                 <td>1</td>
@@ -178,10 +178,10 @@
                     <div class=" mt-5 ">
                         <table class="table table-striped table-sm">
                             <tr>
-                                <th>No</th>
-                                <th>City/Township</th>
-                                <th>Price</th>
-                                <th>Actions</th>
+                                <th class="col-2">No</th>
+                                <th class="col-4">City/Township</th>
+                                <th class="col-4">Price</th>
+                                <th class="col-2">Actions</th>
                             </tr>
 
                             <tr>
@@ -224,10 +224,10 @@
                     <div class=" mt-5 ">
                         <table class="table table-striped table-sm">
                             <tr>
-                                <th>No</th>
-                                <th>Title</th>
-                                <th>Paragraph</th>
-                                <th>Actions</th>
+                                <th class="col-1">No</th>
+                                <th class="col-3">Title</th>
+                                <th class="col-6">Paragraph</th>
+                                <th class="col-2">Actions</th>
                             </tr>
 
                             <tr>
@@ -271,10 +271,10 @@
                     <div class=" mt-5 ">
                         <table class="table table-striped table-sm">
                             <tr>
-                                <th>No</th>
-                                <th>Title</th>
-                                <th>Paragraph</th>
-                                <th>Actions</th>
+                                <th class="col-1">No</th>
+                                <th class="col-3">Title</th>
+                                <th class="col-6">Paragraph</th>
+                                <th class="col-2">Actions</th>
                             </tr>
 
                             <tr>
@@ -317,11 +317,11 @@
                     <div class=" mt-5 ">
                         <table class="table table-striped table-sm">
                             <tr>
-                                <th>No</th>
-                                <th>Category</th>
-                                <th>Questions</th>
-                                <th>Answers</th>
-                                <th>Actions</th>
+                                <th class="col-1">No</th>
+                                <th class="col-2">Category</th>
+                                <th class="col-4">Questions</th>
+                                <th class="col-4">Answers</th>
+                                <th class="col-1">Actions</th>
                             </tr>
 
                             <tr>
@@ -371,10 +371,10 @@
                 <div class="mt-5 ">
                         <table class="table table-striped table-sm ">
                             <tr>
-                                <th>No</th>
-                                <th>Name</th>
-                                <th>Email</th>
-                                <th>Actions</th>
+                                <th class="col-2">No</th>
+                                <th class="col-4">Name</th>
+                                <th class="col-4">Email</th>
+                                <th class="col-2">Actions</th>
                             </tr>
 
                             <tr>
