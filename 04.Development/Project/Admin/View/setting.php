@@ -53,7 +53,7 @@
                         <input type="email" class="customstyle form-control" id="exampleFormControlInput1">
                         <button class="custombutton btn btn-sm offset-10 mt-4">Change Name</button>
                     </div>
-                    <div class="offset-2">
+                    <div class=" offset-2">
                         <img src="../../Customer/resource/img/main slider_1.png" alt="" class="slideimg" />
                         <img src="../../Customer/resource/img/main slider_1.png" alt="" class="slideimg" />
                         <img src="../../Customer/resource/img/main slider_1.png" alt="" class="slideimg" />

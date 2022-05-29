@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
     $(".changemaster" ).click(function() {
-        console.log($(this).text())
         if($(this).text()=="App Master"){
         $(".stm").addClass("closemaster");
         $(".lgm").addClass("closemaster");
