@@ -7,10 +7,7 @@
     height: 120px;
     
 }
-.my-nav{
-    
-    padding-left: 0px !important;
-}
+
 .buttonbox{
     height: 120vh;
     background-color: var(--main-color);

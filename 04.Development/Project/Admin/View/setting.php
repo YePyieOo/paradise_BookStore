@@ -29,7 +29,7 @@
                         <input type="radio" class=" btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
                         <label class="changemaster btn btn-outline-primary " for="btnradio1">Site Master</label>
 
-                        <input type="radio" class=" btn-check " name="btnradio" id="btnradio2" autocomplete="off">
+                        <input type="radio" class=" btn-check" name="btnradio" id="btnradio2" autocomplete="off">
                         <label class="changemaster btn btn-outline-primary" for="btnradio2">App Master</label>
 
                         <input type="radio" class=" btn-check " name="btnradio" id="btnradio3" autocomplete="off">
@@ -90,11 +90,11 @@
                 <div class="custom closemaster">
                     <!-- Category Table start -->
                     <div class="mt-5 ">
-                        <table class="table table-striped table-sm ">
+                        <table class="table table-striped table-sm container">
                             <tr>
-                                <th>No</th>
-                                <th>Name</th>
-                                <th>Actions</th>
+                                <th class="col-4">No</th>
+                                <th class="col-6">Name</th>
+                                <th class="col-2">Actions</th>
                             </tr>
 
                             <tr>
