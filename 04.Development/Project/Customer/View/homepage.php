@@ -19,7 +19,7 @@
       <div class="container-fluid">
          <a class="navbar-brand font-color-primary ps-3 " href="#">
             <img src="../resource/img/main-logoNew.png" alt="main-logo" class="d-inline-block align-text-top main-logo">
-            <span class=" ms-4 fw-bolder fs-4 ">Paradise Book Store</span>
+            <span class=" ms-4 fw-bolder fs-4 ">Paradise <sub>Book Store</sub></span>
          </a>
          <button class="navbar-toggler font-color-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <ion-icon class="font-color-primary fs-2" name="menu-outline"></ion-icon>
@@ -67,15 +67,15 @@
             </ul>
             <div class=" d-flex  justify-content-center align-items-center  font-color-primary ">
                <ion-icon class="me-4" name="cart-outline"></ion-icon>
-               <ion-icon class="me-4" name="person-outline"></ion-icon>
+               <ion-icon class="me-4 person-hover" name="person-outline"></ion-icon>
                <ion-icon class="" name="moon-outline"></ion-icon>
             </div>
 
          </div>
       </div>
    </nav>
-   <section id="welcome-section" class="container mt-5 w-100 vh-100 ">
-      <div class="row pt-5">
+   <section id="welcome-section" class="container mt-5 ">
+      <div class="row pt-5  ">
          <div class="col-12 col-lg-6 ps-5 pb-5">
             <div class="slider secondary-bg content">
                <div class="">
@@ -410,7 +410,7 @@
 
 
 
-   <section class="container-fluid my-5 vh-100">
+   <section class="container-fluid my-5 pt-5 vh-100">
       <div class="row">
          <div class="col-12">
             <h1 class="font-color-primary ms-5 ps-5">Popular Books</h1>
@@ -764,6 +764,7 @@
       </div>
    </footer>
 
+
    <!-- <a href="#welcome-section" class="btn btn-primary position-fixed  scroll-to-top  scroll-to-top-d ">
       <i class="fas fa-angle-up"></i>
    </a> -->
@@ -795,5 +796,6 @@
       });
    </script>
 </body>
+
 
 </html>
