@@ -27,9 +27,9 @@
                 <div class="row mt-4">
                     <div class="btn-group " role="group" aria-label="Basic radio toggle button group">
                         <input type="radio" class="btn-check custom" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                        <label class="btn btn-outline-primary " for="btnradio1">Site Master</label>
+                        <label class="changemaster btn btn-outline-primary " for="btnradio1">Site Master</label>
 
-                        <input type="radio" class=" btn-check " name="btnradio" id="btnradio2" autocomplete="off">
+                        <input type="radio" class=" btn-check" name="btnradio" id="btnradio2" autocomplete="off">
                         <label class="changemaster btn btn-outline-primary" for="btnradio2">App Master</label>
 
                         <input type="radio" class=" btn-check " name="btnradio" id="btnradio3" autocomplete="off">
@@ -53,7 +53,7 @@
                         <input type="email" class="customstyle form-control" id="exampleFormControlInput1">
                         <button class="custombutton btn btn-sm offset-10 mt-4">Change Name</button>
                     </div>
-                    <div class="offset-2">
+                    <div class=" offset-2">
                         <img src="../../Customer/resource/img/main slider_1.png" alt="" class="slideimg" />
                         <img src="../../Customer/resource/img/main slider_1.png" alt="" class="slideimg" />
                         <img src="../../Customer/resource/img/main slider_1.png" alt="" class="slideimg" />
@@ -90,11 +90,11 @@
                 <div class="custom closemaster">
                     <!-- Category Table start -->
                     <div class="mt-5 ">
-                        <table class="table table-striped table-sm ">
+                        <table class="table table-striped table-sm container">
                             <tr>
-                                <th>No</th>
-                                <th>Name</th>
-                                <th>Actions</th>
+                                <th class="col-4">No</th>
+                                <th class="col-6">Name</th>
+                                <th class="col-2">Actions</th>
                             </tr>
 
                             <tr>
@@ -135,10 +135,10 @@
                     <div class="mt-5">
                         <table class="table table-striped table-sm">
                             <tr>
-                                <th>No</th>
-                                <th>Image</th>
-                                <th>Guide Paragraph</th>
-                                <th>Actions</th>
+                                <th class="col-1" >No</th>
+                                <th class="col-3">Image</th>
+                                <th class="col-6">Guide Paragraph</th>
+                                <th class="col-2">Actions</th>
                             </tr>
                             <tr>
                                 <td>1</td>
@@ -178,10 +178,10 @@
                     <div class=" mt-5 ">
                         <table class="table table-striped table-sm">
                             <tr>
-                                <th>No</th>
-                                <th>City/Township</th>
-                                <th>Price</th>
-                                <th>Actions</th>
+                                <th class="col-2">No</th>
+                                <th class="col-4">City/Township</th>
+                                <th class="col-4">Price</th>
+                                <th class="col-2">Actions</th>
                             </tr>
 
                             <tr>
@@ -224,10 +224,10 @@
                     <div class=" mt-5 ">
                         <table class="table table-striped table-sm">
                             <tr>
-                                <th>No</th>
-                                <th>Title</th>
-                                <th>Paragraph</th>
-                                <th>Actions</th>
+                                <th class="col-1">No</th>
+                                <th class="col-3">Title</th>
+                                <th class="col-6">Paragraph</th>
+                                <th class="col-2">Actions</th>
                             </tr>
 
                             <tr>
@@ -271,10 +271,10 @@
                     <div class=" mt-5 ">
                         <table class="table table-striped table-sm">
                             <tr>
-                                <th>No</th>
-                                <th>Title</th>
-                                <th>Paragraph</th>
-                                <th>Actions</th>
+                                <th class="col-1">No</th>
+                                <th class="col-3">Title</th>
+                                <th class="col-6">Paragraph</th>
+                                <th class="col-2">Actions</th>
                             </tr>
 
                             <tr>
@@ -317,11 +317,11 @@
                     <div class=" mt-5 ">
                         <table class="table table-striped table-sm">
                             <tr>
-                                <th>No</th>
-                                <th>Category</th>
-                                <th>Questions</th>
-                                <th>Answers</th>
-                                <th>Actions</th>
+                                <th class="col-1">No</th>
+                                <th class="col-2">Category</th>
+                                <th class="col-4">Questions</th>
+                                <th class="col-4">Answers</th>
+                                <th class="col-1">Actions</th>
                             </tr>
 
                             <tr>
@@ -371,10 +371,10 @@
                 <div class="mt-5 ">
                         <table class="table table-striped table-sm ">
                             <tr>
-                                <th>No</th>
-                                <th>Name</th>
-                                <th>Email</th>
-                                <th>Actions</th>
+                                <th class="col-2">No</th>
+                                <th class="col-4">Name</th>
+                                <th class="col-4">Email</th>
+                                <th class="col-2">Actions</th>
                             </tr>
 
                             <tr>
