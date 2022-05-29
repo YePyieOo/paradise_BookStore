@@ -81,7 +81,7 @@
                         </td>
                     </tr>
                 </table>
-                <button class="custombutton btn-sm offset-10  bg-warning  col-2"><a href="../View/addAuthor.php" class="fw-bold text-dark">ADD BOOK</a></button>
+                <button class="custombutton btn-sm offset-10  bg-warning  col-2"><a href="../View/bookInfo.php" class="fw-bold text-dark">ADD BOOK</a></button>
             </div>
         </div>
     </div>

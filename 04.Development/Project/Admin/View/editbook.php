@@ -23,7 +23,7 @@
         <div id="navbar" class="my-nav"></div>
             <!--Add Book-->
             <div class="col-8 offset-3">
-                <button class="custombutton btn mt-4 col-1 ms-4"><a href="../View/shopInfo.php" class="col-1 text-dark fw-bold">Back</a></button>
+                <button class="custombutton btn mt-4 col-1 ms-4"><a href="../View/bookInfo.php" class="col-1 text-dark fw-bold">Back</a></button>
                 <form>
                     <div class="row container col-md-8 mt-2 ">
                         <div class="row">
