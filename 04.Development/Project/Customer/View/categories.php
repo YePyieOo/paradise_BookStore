@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Homepage</title>
+   <title>Categories</title>
    <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
    <link rel="stylesheet" href="../resource/css/style.css" />
    <link rel="stylesheet" href="../resource/css/homepage.css" />
@@ -128,7 +128,7 @@
     </div>
     <!-- footer -->
     <footer id="footer" class="container-fluid commom-bg">
->>>>>>> a29bce31c49de644753bbcf60c341a594402669f
+>>a29bce31c49de644753bbcf60c341a594402669f
       <div class="row">
          <div class="col-12 col-lg-4 ps-5 pt-4">
             <div class="">
