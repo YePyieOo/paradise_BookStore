@@ -21,6 +21,7 @@
 
 
         <div class="row">
+            <!-- Navbar Start -->
             <div class="col-xl-2 col-md-3 col-sm-4 col-5 buttonbox position-fixed ">
 
                 <div class="h3 text-break mt-4 text-light">Paradise Book </div>
@@ -39,7 +40,9 @@
                 </div>
 
             </div>
+            <!-- Navbar End -->
             <div class="col-xl-8 col-md-7 col-sm-6 col-5 offset-xl-3 offset-md-4 offset-sm-5 offset-6">
+            <!-- Select Button Start -->
                 <div class="row mt-4">
 
 
@@ -54,6 +57,9 @@
                         <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
                     </div>
                 </div>
+            <!-- Select Button End -->
+
+            <!-- Category Table start -->
                 <div class="mt-5 ">
                     <table class="table table-striped table-sm ">
                         <tr>
@@ -94,9 +100,10 @@
                     </table>
                     <button class="btn btn-sm offset-10 custombutton">ADD Category</button>
                 </div>
+            <!-- Category Table end -->
 
-
-                <div class="mt-5">
+             <!-- Guide Table start -->
+               <div class="mt-5">
                     <table class="table table-striped table-sm">
                         <tr>
                             <th>No</th>
@@ -137,7 +144,7 @@
                     </table>
                     <button class="btn btn-sm offset-10 custombutton">ADD Guide</button>
                 </div>
-
+             <!-- Guide Table end -->
 
                 <div class=" mt-5 ">
                     <table class="table table-striped table-sm">
