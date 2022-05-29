@@ -2,11 +2,10 @@
     margin: 0;
     padding: 0;
 }
-.my-img{
+/* .my-img{
     width: 120px;
     height: 120px;
-    
-}
+} */
 .my-nav{
     
     padding-left: 0px !important;
@@ -33,9 +32,12 @@
 .custombutton:focus{
     background-color: var(--btn-color);
 }
+.text-dec{
+    text-decoration: none;
+}
 @media screen and (max-width:1030px){
     .buttonbox{
-        width: 12%;
+        width: 13%;
     }
     button span{
         display: none;
