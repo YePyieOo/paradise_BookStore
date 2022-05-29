@@ -7,6 +7,10 @@
    --yellow-icon: #f4d221;
 }
 
+.header {
+   z-index: 1005;
+}
+
 .main-logo {
    width: 2.5rem;
    height: 2.5rem;
@@ -46,3 +50,31 @@
    width: 700px;
    height: 180px;
 }
+
+.bg-lightBlue {
+   background-color: #ebf1fd;
+}
+
+.book-card-lg {
+   width: 250px;
+   height: 500px;
+}
+
+.book-card-lg2 {
+   width: 320px;
+   height: 500px;
+}
+
+.circle-pink {
+   background-color: red;
+}
+
+.scroll-to-top {
+   bottom: 50px;
+   right: 50px;
+}
+
+.scroll-to-top-d {
+   display: none;
+}
+

@@ -24,10 +24,10 @@
             <div id="navbar"></div>
 
             <div class="col-8 offset-3 ">
-                <div class=" row mt-4">
-                    <div class=" btn-group " role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class=" btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                        <label class="changemaster btn btn-outline-primary " for="btnradio1">Site Master</label>
+                <div class="row mt-4">
+                    <div class="btn-group " role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check custom" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary " for="btnradio1">Site Master</label>
 
                         <input type="radio" class=" btn-check" name="btnradio" id="btnradio2" autocomplete="off">
                         <label class="changemaster btn btn-outline-primary" for="btnradio2">App Master</label>

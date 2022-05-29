@@ -14,6 +14,7 @@
     <script src="../resource/UI Library/chart_js/Chart.min.js"></script>
     <script src="../resource/UI Library/jquery-3.3.1.min.js"></script>
     <script src="../resource/js/common.js"></script>
+    <script src="../resource/js/dashboard.js" defer></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
@@ -29,7 +30,7 @@
                     <button class="admin-log me-md-3 text-primary ">
                         <ion-icon name="person" class="fs-3"></ion-icon>
                     </button>
-                    <a href="#" class="me-md-5 mt-2">CustomerPage</a>
+                    <a href="#" class="me-md-5 mt-2 text-dec fs-4">CustomerPage</a>
                 </div>
                 <div class="box">
                     <div class="box1">
@@ -48,23 +49,48 @@
                         <p class="quantity">10k</p>
                     </div>
                 </div>
-                <!-- <div class="row mt-3">
-                    <div class="div col-md-3 col-3  ">
-                        <ion-icon name="person-circle-outline" class="iconic mt-2 "></ion-icon>
-                        <span class="fs-4">User</span>
-                        <p class="ps-5 fs-4">20k</p>
-                    </div>
-                    <div class="div col-md-3 col-3 offset-md-1 offset-1  ">
-                        <ion-icon name="cart-outline" class="iconic mt-2 "></ion-icon>
-                        <span class="fs-4">Sale</span>
-                        <p class="ps-5 fs-4">5k</p>
-                    </div>
-                    <div class="div col-md-3 col-3 offset-md-1 offset-1   ">
-                        <ion-icon name="document-outline" class="iconic mt-2 "></ion-icon>
-                        <span class="fs-4">Order</span>
-                        <p class="ps-5 fs-4">200</p>
-                    </div>
-                </div> -->
+                <div class="row mt-4 ms-4">
+                    <p class="h4 mt-1">Monthly Order</p>
+                    <canvas id="myChart"></canvas>
+                </div>
+                <div class="row mt-4 ms-4">
+                <p class="h4 mt-1">Daily Order</p>
+                <table class="table table-striped mt-4">
+                    <tr class="bg-warning">
+                        <th class="col-1">No</th>
+                        <th class="col-2">Customer</th>
+                        <th class="col-2">Date</th>
+                        <th class="col-2 ">Amount</th>
+                        <th class="col-3">Address</th>
+                        <th class="col-2">Delivery Fees</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>helloJohn</td>
+                        <td>25.05.2022</td>
+                        <td>6,000MMK</td>
+                        <td>No.7B,Kamayut Township</td>
+                        <td>2,000MMK</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>helloMary</td>
+                        <td>25.05.2022</td>
+                        <td>6,000MMK</td>
+                        <td>No.7B,Kamayut Township</td>
+                        <td>2,000MMK</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>helloNora</td>
+                        <td>25.05.2022</td>
+                        <td>6,000MMK</td>
+                        <td>No.7B,Kamayut Township</td>
+                        <td>2,000MMK</td>
+                    </tr>
+                </table>
+                </div>
+                
             </div>
 
         </div>
