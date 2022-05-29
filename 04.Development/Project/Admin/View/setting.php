@@ -20,34 +20,9 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-<<<<<<< HEAD
-            <!-- Navbar Start -->
-            <div class="col-xl-2 col-md-3 col-sm-4 col-5 buttonbox position-fixed ">
-
-                <div class="h3 text-break mt-4 text-light">Paradise Book </div>
-                <div class="h3 text-light">Store</div>
-                <div class="btn-group-vertical container mb-4">
-                    <button type="button" class="btn btn-light  mt-3">Dashboard</button>
-                    <button type="button" class="btn btn-light  mt-3">Book Info</button>
-                    <button type="button" class="btn btn-light  mt-3">Author Info</button>
-                    <button type="button" class="btn btn-light  mt-3">Shop Info</button>
-                    <button type="button" class="btn btn-light  mt-3">User Info</button>
-                    <button type="button" class="btn btn-light  mt-3">Order Info</button>
-                    <button type="button" class="btn btn-light  mt-3">Community</button>
-                    <button type="button" class="btn btn-light  mt-3">Setting</button>
-                    <button type="button" class="btn btn-light  mt-3">Log Out</button>
-
-                </div>
-
-            </div>
-            <!-- Navbar End -->
-            <div class="col-xl-8 col-md-7 col-sm-6 col-5 offset-xl-3 offset-md-4 offset-sm-5 offset-6">
-            <!-- Select Button Start -->
-=======
             <div id="navbar"></div>
 
             <div class="col-8 offset-3 ">
->>>>>>> origin/main
                 <div class="row mt-4">
                     <div class="btn-group " role="group" aria-label="Basic radio toggle button group">
                         <input type="radio" class="btn-check custom" name="btnradio" id="btnradio1" autocomplete="off" checked>
