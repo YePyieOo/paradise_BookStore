@@ -14,7 +14,7 @@
     <script src="../resource/UI Library/chart_js/Chart.min.js"></script>
     <script src="../resource/UI Library/jquery-3.3.1.min.js"></script>
     <script src="../resource/js/common.js"></script>
-    <script src="../resource/js/dashboard.js"></script>
+    <script src="../resource/js/dashboard.js" defer></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
@@ -50,9 +50,11 @@
                     </div>
                 </div>
                 <div class="row mt-4 ms-4">
+                    <p class="h4 mt-1">Monthly Order</p>
                     <canvas id="myChart"></canvas>
                 </div>
                 <div class="row mt-4 ms-4">
+                <p class="h4 mt-1">Daily Order</p>
                 <table class="table table-striped mt-4">
                     <tr class="bg-warning">
                         <th class="col-1">No</th>
