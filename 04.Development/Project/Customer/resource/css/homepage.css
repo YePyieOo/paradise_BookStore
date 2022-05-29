@@ -7,6 +7,10 @@
    --yellow-icon: #f4d221;
 }
 
+.header {
+   z-index: 1005;
+}
+
 .main-logo {
    width: 2.5rem;
    height: 2.5rem;
@@ -64,3 +68,13 @@
 .circle-pink {
    background-color: red;
 }
+
+.scroll-to-top {
+   bottom: 50px;
+   right: 50px;
+}
+
+.scroll-to-top-d {
+   display: none;
+}
+

@@ -15,7 +15,7 @@
 </head>
 
 <body>
-   <nav class="navbar navbar-expand-lg bg-light ">
+   <nav class="navbar navbar-expand-lg bg-light position-fixed top-0 w-100 header">
       <div class="container-fluid">
          <a class="navbar-brand font-color-primary ps-3 " href="#">
             <img src="../resource/img/main-logoNew.png" alt="main-logo" class="d-inline-block align-text-top main-logo">
@@ -74,10 +74,10 @@
          </div>
       </div>
    </nav>
-   <section id="welcome-section" class="container mt-5 w-100 ">
+   <section id="welcome-section" class="container mt-5 w-100 vh-100 ">
       <div class="row pt-5">
          <div class="col-12 col-lg-6 ps-5 pb-5">
-            <div class="slider secondary-bg">
+            <div class="slider secondary-bg content">
                <div class="">
                   <img class="img-slide1" src="../resource/img/main slider_1.png" alt="">
                </div>
@@ -88,7 +88,7 @@
          </div>
          <div class="col-12 col-lg-1"></div>
          <div class="col-12 col-lg-5">
-            <div class="pt-5">
+            <div class="pt-5 content  ">
                <h3 class="font-color-primary">CHOOSE YOUR BRAIN FOOD</h3>
                <h1 class="fw-bold text-primary">BOOK IN STORE</h1>
                <p class="">Language / Education / Novels / Technology / Cartoons</p>
@@ -100,9 +100,9 @@
 
    <section id="blueBox" class="container my-5">
       <div class="row pt-3">
-         <div class="col-12 col-lg-4 ">
+         <div class="col-12 col-lg-4 content">
             <div class=" container commom-bg rounded">
-               <div class="row align-items-center justify-content-center">
+               <div class="row align-items-center justify-content-center  ">
                   <div class="col-3">
                      <button class="btn btn-primary rounded-circle">
                         <i class="fas fa-phone-alt"></i>
@@ -116,7 +116,7 @@
             </div>
          </div>
 
-         <div class="col-12 col-lg-4">
+         <div class="col-12 col-lg-4  content">
             <div class="container commom-bg rounded">
                <div class="row align-items-center justify-content-center">
                   <div class="col-3">
@@ -132,7 +132,7 @@
             </div>
          </div>
 
-         <div class="col-12 col-lg-4  col-sm-12   ">
+         <div class="col-12 col-lg-4   content col-sm-12   ">
             <div class="container commom-bg rounded">
                <div class="row align-items-center justify-content-center">
                   <div class="col-3">
@@ -152,18 +152,18 @@
 
 
 
-   <section class="container my-5" id="">
-      <div class="row justify-content-evenly ">
+   <section class="container my-5 vh-100" id="">
+      <div class="row justify-content-evenly align-items-center ">
          <div class="my-5"></div>
-         <hr>
-         <div class="col-12">
+         <hr class=" content">
+         <div class="col-12  content">
             <div class="my-5">
                <div class="text-center">
                   <h2 class="fw-bold">NEW BOOKS </h2>
                </div>
             </div>
          </div>
-         <div class="col-6 col-lg-3 col-xl-2">
+         <div class="col-6 col-lg-3 col-xl-2   content">
             <div class="card mb-5 mb-lg-0 card-width">
                <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
                <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -185,7 +185,7 @@
             </div>
          </div>
 
-         <div class="col-6 col-lg-3 col-xl-2">
+         <div class="col-6 col-lg-3 col-xl-2 content">
             <div class="card mb-5 mb-lg-0 card-width">
                <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
                <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -207,7 +207,7 @@
             </div>
          </div>
 
-         <div class="col-6 col-lg-3 col-xl-2">
+         <div class="col-6 col-lg-3 col-xl-2 content">
             <div class="card mb-5 mb-lg-0 card-width">
                <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
                <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -229,7 +229,7 @@
             </div>
          </div>
 
-         <div class="col-6 col-lg-3 col-xl-2">
+         <div class="col-6 col-lg-3 col-xl-2 content">
             <div class="card mb-5 mb-lg-0 card-width">
                <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
                <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -251,7 +251,7 @@
             </div>
          </div>
 
-         <div class="col-6 col-lg-3 col-xl-2">
+         <div class="col-6 col-lg-3 col-xl-2 content">
             <div class="card mb-5 mb-lg-0 card-width">
                <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
                <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -276,12 +276,12 @@
    </section>
 
 
-   <section class="container bg-lightBlue  my-5" id="">
-      <div class="row justify-content-evenly">
+   <section class="container bg-lightBlue  my-5  " id="">
+      <div class="row justify-content-evenly h-100 content ">
          <div class="my-5"></div>
          <div class="col-12">
-            <div class="my-5">
-               <div class="text-left ms-5 d-flex flex-row">
+            <div class="my-5 content">
+               <div class="text-left ms-5 d-flex flex-row content">
                   <h2 class="fw-bold font-color-primary">
                      Best Selling Books
                   </h2>
@@ -289,7 +289,7 @@
             </div>
          </div>
          <div class="col-6 col-lg-3 col-xl-2">
-            <div class="card mb-5 mb-lg-0 card-width bg-lightBlue border-0">
+            <div class="card mb-5 mb-lg-0 card-width bg-lightBlue border-0 content">
                <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
                <div class="card-body d-flex flex-column justify-content-center align-items-center">
                   <p class="card-title fw-bold mb-0 font-color-primary">
@@ -313,7 +313,7 @@
          </div>
 
          <div class="col-6 col-lg-3 col-xl-2">
-            <div class="card mb-5 mb-lg-0 card-width bg-lightBlue border-0">
+            <div class="card mb-5 mb-lg-0 card-width bg-lightBlue border-0 content">
                <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
                <div class="card-body d-flex flex-column justify-content-center align-items-center">
                   <p class="card-title fw-bold mb-0 font-color-primary">
@@ -337,7 +337,7 @@
          </div>
 
          <div class="col-6 col-lg-3 col-xl-2 book-card-lg mb-5">
-            <div class="card bg-lightBlue border-0">
+            <div class="card bg-lightBlue border-0 content">
                <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
                <div class="card-body d-flex flex-column justify-content-center align-items-center">
                   <p class="card-title fw-bold fs-4 mb-0 font-color-primary">
@@ -361,7 +361,7 @@
          </div>
 
          <div class="col-6 col-lg-3 col-xl-2">
-            <div class="card mb-5 mb-lg-0 card-width bg-lightBlue border-0">
+            <div class="card mb-5 mb-lg-0 card-width bg-lightBlue border-0 content">
                <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
                <div class="card-body d-flex flex-column justify-content-center align-items-center">
                   <p class="card-title fw-bold mb-0">JavaScript</p>
@@ -383,7 +383,7 @@
          </div>
 
          <div class="col-6 col-lg-3 col-xl-2">
-            <div class="card mb-5 mb-lg-0 card-width bg-lightBlue border-0">
+            <div class="card mb-5 mb-lg-0 card-width bg-lightBlue border-0 content">
                <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
                <div class="card-body d-flex flex-column justify-content-center align-items-center">
                   <p class="card-title fw-bold mb-0 font-color-primary">
@@ -410,7 +410,7 @@
 
 
 
-   <section class="container-fluid my-5">
+   <section class="container-fluid my-5 vh-100">
       <div class="row">
          <div class="col-12">
             <h1 class="font-color-primary ms-5 ps-5">Popular Books</h1>
@@ -764,6 +764,11 @@
       </div>
    </footer>
 
+   <!-- <a href="#welcome-section" class="btn btn-primary position-fixed  scroll-to-top  scroll-to-top-d ">
+      <i class="fas fa-angle-up"></i>
+   </a> -->
+
+
 
    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -772,10 +777,21 @@
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
    <script src="../resource/UI Library/fontawesome-free/js/all.min.js"></script>
+   <script src="https://unpkg.com/scrollreveal"></script>
    <script type="text/javascript">
       $(".slider").slick({
          prevArrow: '<span class="priv_arrow btn  btn-primary "><i class="fas fa-angle-left"></i></span>',
          nextArrow: '<span class="next_arrow btn btn-primary "><i class="fas fa-angle-right"></i></span>'
+      });
+
+
+      ScrollReveal({
+         origin: 'top',
+         distance: '30px',
+         duration: 1000,
+         reset: true,
+      }).reveal('.content', {
+         interval: 200
       });
    </script>
 </body>
