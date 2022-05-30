@@ -77,8 +77,8 @@
    <!-- nav -->
    <div class="container-fluid header p-4">
       <div class="container d-flex justify-content-between align-items-center">
-      <h3>Language</h3>
-      <div>
+      <h3 class="text-primary">Language</h3>
+      <div class="text-primary">
          <b>Home</b> -> Language
       </div>
       </div>
