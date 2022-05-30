@@ -42,12 +42,6 @@ img{
     object-fit: cover;
    
 }
-/* p{
-    font-size: 10px;
-} */
-/* div div h4 div{
-    font-size: 10px;
-} */
 
 icon{
     color:b ;
@@ -61,4 +55,7 @@ icon{
 .card-button {
     background-color: var(--primary-color);
     color: white;
+}
+h3{
+    background-color: var(--primary-color);
 }

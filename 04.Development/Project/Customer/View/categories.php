@@ -16,7 +16,7 @@
 
 <body>
    <!-- nav -->
-   <nav class="navbar navbar-expand-lg bg-light ">
+   <!-- <nav class="navbar navbar-expand-lg bg-light ">
       <div class="container-fluid">
          <a class="navbar-brand font-color-primary ps-3 " href="#">
             <img src="../resource/img/main-logoNew.png" alt="main-logo" class="d-inline-block align-text-top main-logo">
@@ -73,7 +73,7 @@
             </div>
          </div>
       </div>
-   </nav>
+   </nav> -->
    <!-- nav -->
    <div class="container-fluid header p-4">
       <div class="container d-flex justify-content-between align-items-center">
@@ -109,7 +109,7 @@
                            <span style="font-size:x-small">Author Name</span>
                         </div>
                         <p style="font-weight:500 ;">3500 MMK</p>
-                        <button class="btn btn-primary card-button px-1 rounded-1 me-1"><i class="fa-solid fa-cart-shopping me-1"></i>add
+                        <button class="btn card-button px-1 rounded-1 me-1"><i class="fa-solid fa-cart-shopping me-1"></i>add
                            to
                            cart</button>
                         <span class="btn btn-primary card-button"><i class="fa-solid fa-eye"></i> 4</span>
@@ -120,7 +120,8 @@
          </div>
       </div>
    </div>
-   <footer id="footer" class="container-fluid commom-bg">
+   <!-- footer -->
+   <!-- <footer id="footer" class="container-fluid commom-bg">
       <div class="row">
          <div class="col-12 col-lg-4 ps-5 pt-4">
             <div class="">
@@ -228,7 +229,7 @@
             </div>
          </div>
       </div>
-   </footer>
+   </footer> -->
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
    <script src="../resource/UI Library/fontawesome-free/js/all.min.js"></script>

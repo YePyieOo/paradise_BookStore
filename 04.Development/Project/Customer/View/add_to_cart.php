@@ -5,10 +5,10 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Homepage</title>
+   <title>Cart List</title>
    <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
-   <link rel="stylesheet" href="../resource/css/style.css" />
-   <link rel="stylesheet" href="../resource/css/homepage.css" />
+   <!-- <link rel="stylesheet" href="../resource/css/style.css" /> -->
+   <!-- <link rel="stylesheet" href="../resource/css/homepage.css" /> -->
    <link rel="stylesheet" href="../resource/css/add_to_cart.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
    <link rel="stylesheet" href="../resource/UI Library/fontawesome-free/css/all.min.css">
@@ -16,7 +16,7 @@
 
 <body>
    <!-- nav -->
-   <nav class="navbar navbar-expand-lg bg-light ">
+   <!-- <nav class="navbar navbar-expand-lg bg-light ">
       <div class="container-fluid">
          <a class="navbar-brand font-color-primary ps-3 " href="#">
             <img src="../resource/img/main-logoNew.png" alt="main-logo" class="d-inline-block align-text-top main-logo">
@@ -73,7 +73,7 @@
             </div>
          </div>
       </div>
-   </nav>
+   </nav> -->
    <!-- nav -->
    <div class="container header d-flex justify-content-between align-items-center p-4">
             <h3>Cart List</h3>
@@ -81,7 +81,7 @@
                 <b>Home</b> -> Detail Book -> Book Cart
             </div>
         </div>
-        <h5 class="fw-bolder text-primary">Order History</h5>
+        <!-- <h5 class="fw-bolder text-primary">Order History</h5> -->
         <div >
         <table class="table mt-5">
   <thead>
@@ -123,7 +123,7 @@
 </table>
         </div>
    <!-- footer -->
-   <footer id="footer" class="container-fluid commom-bg">
+   <!-- <footer id="footer" class="container-fluid commom-bg">
       <div class="row">
          <div class="col-12 col-lg-4 ps-5 pt-4">
             <div class="">
@@ -230,7 +230,7 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
    </footer>
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
