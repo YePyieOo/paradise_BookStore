@@ -75,18 +75,20 @@
       </div>
    </nav>
    <!-- nav -->
-   <div class="container-fluid header d-flex justify-content-between align-items-center p-4">
+   <div class="container-fluid header p-4">
+      <div class="container d-flex justify-content-between align-items-center">
       <h3>Language</h3>
       <div>
          <b>Home</b> -> Language
       </div>
+      </div>
    </div>
    </div>
-   <div class="container-fluid header  d-flex justify-content-between align-items-center ">
+   <div class="container-fluid d-flex justify-content-between align-items-center my-4">
       <div class="container">
          <div class="row g-0">
             <?php for ($i = 0; $i < 12; $i++) : ?>
-               <div class="col-12 col-md-6 col-lg-3 text-light header d-flex justify-content-between align-items-center">
+               <div class="col-12 col-md-6 col-lg-3 text-light header d-flex justify-content-between align-items-center my-2">
                   <div class="my-card">
                      <div class="my-card-img">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXg49v2amwPoDctZcQClmNEYTIlAHx_0SbHQ&usqp=CAU" alt="">
@@ -106,7 +108,6 @@
                            </span><br>
                            <span style="font-size:x-small">Author Name</span>
                         </div>
-<<<<<<< HEAD
                         <p style="font-weight:500 ;">3500 MMK</p>
                         <button class="btn btn-primary card-button px-1 rounded-1 me-1"><i class="fa-solid fa-cart-shopping me-1"></i>add
                            to
@@ -120,15 +121,6 @@
       </div>
    </div>
    <footer id="footer" class="container-fluid commom-bg">
-=======
-                    </div>
-                <?php endfor ?>
-            </div>
-        </div>
-    </div>
-    <!-- footer -->
-    <footer id="footer" class="container-fluid commom-bg">
->>a29bce31c49de644753bbcf60c341a594402669f
       <div class="row">
          <div class="col-12 col-lg-4 ps-5 pt-4">
             <div class="">
