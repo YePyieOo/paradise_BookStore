@@ -9,8 +9,6 @@
    <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
    <link rel="stylesheet" href="../resource/css/style.css" />
    <link rel="stylesheet" href="../resource/css/homepage.css" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
    <link rel="stylesheet" href="../resource/UI Library/fontawesome-free/css/all.min.css">
 </head>
 
@@ -19,7 +17,7 @@
       <div class="container-fluid">
          <a class="navbar-brand font-color-primary ps-3 " href="#">
             <img src="../resource/img/main-logoNew.png" alt="main-logo" class="d-inline-block align-text-top main-logo">
-            <span class=" ms-4 fw-bolder fs-4 ">Paradise <sub>Book Store</sub></span>
+            <span class=" ms-4 fw-bolder fs-4 ">စာ အုပ် ဆိုင်</span>
          </a>
          <button class="navbar-toggler font-color-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <ion-icon class="font-color-primary fs-2" name="menu-outline"></ion-icon>
@@ -76,7 +74,7 @@
    </nav>
    <section id="welcome-section" class="container mt-5 ">
       <div class="row pt-5  ">
-         <div class="col-12 col-lg-6 ps-5 pb-5">
+         <!-- <div class="col-12 col-lg-6 ps-5 pb-5">
             <div class="slider secondary-bg content">
                <div class="">
                   <img class="img-slide1" src="../resource/img/main slider_1.png" alt="">
@@ -85,7 +83,7 @@
                   <img class="img-slide2" src="../resource/img/main slider_2.png" alt="">
                </div>
             </div>
-         </div>
+         </div> -->
          <div class="col-12 col-lg-1"></div>
          <div class="col-12 col-lg-5">
             <div class="pt-5 content  ">
@@ -152,7 +150,7 @@
 
 
 
-   <section class="container my-5 vh-100" id="">
+   <section class="container my-5 vh-100" id="newsBooks">
       <div class="row justify-content-evenly align-items-center ">
          <div class="my-5"></div>
          <hr class=" content">
@@ -514,7 +512,7 @@
          </div>
 
          <div class="col-12 col-lg-4 col-xl-2 book-card-lg2">
-            <div class="card py-3 card-width">
+            <div class="card py-3">
                <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
                <div class="card-body d-flex flex-column justify-content-center align-items-center">
                   <small>
@@ -582,7 +580,7 @@
       <div class="row pt-3">
 
          <div class="col-12 col-lg-3  col-sm-12   ">
-            <div class="container border rounded border-primary">
+            <div class="container border rounded border-dark">
                <div class="row align-items-center justify-content-center">
                   <div class="col-3">
                      <button class="btn rounded-circle">
@@ -598,7 +596,7 @@
          </div>
 
          <div class="col-12 col-lg-3  col-sm-12   ">
-            <div class="container border rounded border-primary">
+            <div class="container border rounded border-dark">
                <div class="row align-items-center justify-content-center">
                   <div class="col-3">
                      <button class="btn rounded-circle">
@@ -615,7 +613,7 @@
 
 
          <div class="col-12 col-lg-3  col-sm-12   ">
-            <div class="container border rounded border-primary">
+            <div class="container border rounded border-dark">
                <div class="row align-items-center justify-content-center">
                   <div class="col-3">
                      <button class="btn rounded-circle">
@@ -632,7 +630,7 @@
 
 
          <div class="col-12 col-lg-3  col-sm-12   ">
-            <div class="container border rounded border-primary">
+            <div class="container border rounded border-dark">
                <div class="row align-items-center justify-content-center">
                   <div class="col-3">
                      <button class="btn rounded-circle">
@@ -677,7 +675,6 @@
                      <div class="cs-width me-5">
                         <p class="fw-bold">Customer Service</p>
                         <small>09-123456789</small>
-                        <br />
                         <br />
                         <small>hello@gmail.com</small>
                      </div>
@@ -763,27 +760,59 @@
          </div>
       </div>
    </footer>
+   <!-- <a onclick="topFunction()" id="myBtn" class="btn" title="Go to top">Top</a> -->
+
+   <a href="#welcome-section" class="btn btn-primary position-fixed  scroll-to-top  scroll-to-top-d ">
+      hello
+   </a>
 
 
-   <!-- <a href="#welcome-section" class="btn btn-primary position-fixed  scroll-to-top  scroll-to-top-d ">
-      <i class="fas fa-angle-up"></i>
-   </a> -->
 
-
-
-   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   <script src="../resource/UI Library/jquery-3.3.1.min.js"></script>
    <script src="../resource/js/homepage.js"></script>
    <script src="../resource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
    <script src="../resource/UI Library/fontawesome-free/js/all.min.js"></script>
    <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="../resource/UI Library/way_point/noframework.waypoints.js"></script>
    <script type="text/javascript">
-      $(".slider").slick({
-         prevArrow: '<span class="priv_arrow btn  btn-primary "><i class="fas fa-angle-left"></i></span>',
-         nextArrow: '<span class="next_arrow btn btn-primary "><i class="fas fa-angle-right"></i></span>'
-      });
+      //Get the button:
+      mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {
+         scrollFunction()
+      };
+
+      function scrollFunction() {
+         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+         } else {
+            mybutton.style.display = "none";
+         }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+         document.body.scrollTop = 0; // For Safari
+         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+
+
+
+      // let hello = $("#blueBox").Waypoint(function() {
+      //    console.log("hello")
+      //    $(".navbar").toggleClass("bg-light").toggleClass("bg-success");
+      // }, {
+      //    offset: "20%"
+      // })
+
+
+      // $(".slider").slick({
+      //    prevArrow: '<span class="priv_arrow btn  btn-primary "><i class="fas fa-angle-left"></i></span>',
+      //    nextArrow: '<span class="next_arrow btn btn-primary "><i class="fas fa-angle-right"></i></span>'
+      // });
 
 
       ScrollReveal({
