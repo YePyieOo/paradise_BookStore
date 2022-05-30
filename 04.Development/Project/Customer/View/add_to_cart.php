@@ -75,53 +75,94 @@
       </div>
    </nav> -->
    <!-- nav -->
-   <div class="container header d-flex justify-content-between align-items-center p-4">
-            <h3>Cart List</h3>
-            <div>
-                <b>Home</b> -> Detail Book -> Book Cart
-            </div>
-        </div>
-        <!-- <h5 class="fw-bolder text-primary">Order History</h5> -->
-        <div >
-        <table class="table mt-5">
-  <thead>
-    <tr>
-      <th scope="col">Items</th>
-      <th scope="col"></th>
-      <th scope="col">Price</th>
-      <th scope="col">Quatity</th>
-      <th scope="col">Total</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row"><img src="./education.jpg" alt="" class="images"></th>
-      <td>Book Name<br> Author Name</td>
-      <td>1000</td>
-      <td>2</td>
-      <td>2000</td>
-      <td><ion-icon name="close-circle-outline"></ion-icon></td>
-    </tr>
-    <tr>
-      <th scope="row"><img src="./education.jpg" alt=""></th>
-      <td>Book Name<br> Author Name</td>
-      <td>4000</td>
-      <td>1</td>
-      <td>4000</td>
-      <td><ion-icon name="close-circle-outline"></ion-icon></td>
-    </tr>
-    <tr>
-      <th scope="row"><img src="./education.jpg" alt=""></th>
-      <td>Book Name<br> Author Name</td>
-      <td>5000</td>
-      <td>2</td>
-      <td>10000</td>
-      <td><ion-icon name="close-circle-outline"></ion-icon></td>
-    </tr>
-  </tbody>
-</table>
-        </div>
+   <div class="container header d-flex justify-content-between align-items-center p-4 text-primary">
+      <h3 class="fw-bolder">Cart List</h3>
+      <div>
+         <b>Home</b> -> Detail Book -> Book Cart
+      </div>
+   </div>
+   <!-- <h5 class="fw-bolder text-primary">Order History</h5> -->
+   <div>
+      <table class="table mt-5">
+         <thead class="text-light bg-primary">
+            <tr>
+               <th scope="col">Items</th>
+               <th scope="col"></th>
+               <th scope="col">Price</th>
+               <th scope="col">Quatity</th>
+               <th scope="col">Total</th>
+               <th></th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <th scope="row"><img src="./education.jpg" alt="" class="images"></th>
+               <td><b>Book Name</b><br><i> Author Name</i></td>
+               <td>1000</td>
+               <td>2</td>
+               <td>2000</td>
+               <td>
+                  <ion-icon name="close-circle-outline"></ion-icon>
+               </td>
+            </tr>
+            <tr>
+               <th scope="row"><img src="./education.jpg" alt=""></th>
+               <td><b>Book Name</b><br><i> Author Name</i></td>
+               <td>4000</td>
+               <td>1</td>
+               <td>4000</td>
+               <td>
+                  <ion-icon name="close-circle-outline"></ion-icon>
+               </td>
+            </tr>
+            <tr>
+               <th scope="row"><img src="./education.jpg" alt=""></th>
+               <td><b>Book Name</b><br><i> Author Name</i></td>
+               <td>5000</td>
+               <td>2</td>
+               <td>10000</td>
+               <td>
+                  <ion-icon name="close-circle-outline"></ion-icon>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <div class="container header d-flex justify-content-between align-items-center p-4 text-primary">
+      <h3 class="fw-bolder"></h3>
+      <div>
+         <table class="table table-borderless text px-4">
+            <thead>
+               <tr>
+                  <th colspan="2" class="text-primary">Total Price</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <th scope="row">Java</th>
+                  <td>1*1000</td>
+               </tr>
+               <tr>
+                  <th scope="row">PHP</th>
+                  <td>2*2000</td>
+               </tr>
+               <tr>
+                  <th scope="row">Delivery Price</th>
+                  <td>0</td>
+               </tr>
+               <tr>
+                  <th scope="row">TOTAL COST</th>
+                  <td>5000</td>
+               </tr>
+            </tbody>
+            <tr>
+            <tr>
+            <td colspan="3" class="container d-flex justify-content-between align-items-center px-4 "><button class="btn btn-primary text-light text-align-center"><b>BUY NOW</b></button></td>
+            </tr>
+         </table>
+
+      </div>
+   </div>
    <!-- footer -->
    <!-- <footer id="footer" class="container-fluid commom-bg">
       <div class="row">
