@@ -26,22 +26,22 @@
                 <p class="h3 mt-5">Book List</p>
                 
                 <table class="table table-striped table-sm mt-4">
-                    <tr>
+                    <tr class="tb-text">
                         <th class="col-1">No</th>
                         <th class="col-1">Image</th>
                         <th class="col-2">Name</th>
                         <th class="col-2">Category</th>
                         <th class="col-2">Author</th>
-                        <th class="col-1">Price</th>
-                        <th class="col-2">Action</th>
+                        <th class="col-2">Price</th>
+                        <th class="col-2">Actions</th>
                     </tr>
-                    <tr>
-                        <td>1</td>
-                        <td><img src="../resource/img/authors/minlu.jpg" alt="" class="customimagesize" /> </td>
+                    <tr class="tb-text">
+                        <td >1</td>
+                        <td ><img src="../resource/img/authors/minlu.jpg" alt="" class="customimagesize" /> </td>
                         <td >TookP</td>
                         <td>Cartoon</td>
-                        <td>-</td>
-                        <td>2,000MMK</td>
+                        <td>No</td>
+                        <td>2,000 MMK</td>
                         <td>
                             <button class="btn btn-outline-primary ">
                                 <ion-icon name="create"></ion-icon>
@@ -50,13 +50,13 @@
                             </button>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>2</td>
                         <td><img src="../resource/img/authors/minlu.jpg" alt="" class="customimagesize" /> </td>
                         <td >TookP</td>
                         <td>Cartoon</td>
-                        <td>-</td>
-                        <td>2,000MMK</td>
+                        <td>No</td>
+                        <td>2,000 MMK</td>
                         <td>
                             <button class="btn btn-outline-primary ">
                                 <ion-icon name="create"></ion-icon>
@@ -65,13 +65,13 @@
                             </button>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>3</td>
                         <td><img src="../resource/img/authors/minlu.jpg" alt="" class="customimagesize" /> </td>
                         <td >TookP</td>
                         <td>Cartoon</td>
-                        <td>-</td>
-                        <td>2,000MMK</td>
+                        <td>No</td>
+                        <td>2,000 MMK</td>
                         <td>
                             <button class="btn btn-outline-primary ">
                                 <ion-icon name="create"></ion-icon>
@@ -81,7 +81,7 @@
                         </td>
                     </tr>
                 </table>
-                <button class="custombutton btn-sm offset-10  bg-warning  col-2"><a href="../View/bookInfo.php" class="fw-bold text-dark">ADD BOOK</a></button>
+                <button class="custombutton btn-sm offset-10  bg-warning  col-2"><a href="../View/addBook.php" class="text-dec fw-bold text-dark">ADD BOOK</a></button>
             </div>
         </div>
     </div>

@@ -16,19 +16,19 @@
 </head>
 <body>
 <div class="container-fluid mt-5">
-<button class="custombutton btn btn-sm offset-4 ">Back</button>
+<button class="custombutton btn btn-sm offset-4 fw-bold">BACK</button>
 <div class="row offset-4">
 <div class="col-5 mt-3">
 <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Title</label>
+  <label for="exampleFormControlInput1" class="form-label">Write City or Township</label>
   <input type="email" class="customstyle form-control" id="exampleFormControlInput1">
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Paragraph</label>
-  <textarea class="customstyle form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  <label for="exampleFormControlInput1" class="form-label">Write Delivery Price</label>
+  <input type="email" class="customstyle form-control" id="exampleFormControlInput1">
 </div>
 
-<button class="custombutton btn btn-sm offset-10 mt-3">ADD</button>
+<button class="custombutton btn btn-sm offset-10 mt-3 fw-bold">SAVE</button>
 
 </div>
 </div>

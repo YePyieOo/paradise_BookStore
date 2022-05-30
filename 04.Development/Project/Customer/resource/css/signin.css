@@ -6,6 +6,9 @@
    --font-color3: #2964da;
    --yellow-icon: #f4d221;
 }
+.my-class{
+    font-family:Inria Sans;
+}
 
 .wrapper {
    height: 100vh;
