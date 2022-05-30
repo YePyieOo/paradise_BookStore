@@ -43,43 +43,43 @@
                     <div class="input-group mb-3 mt-5">
                         <input type="file" class="form-control" id="inputGroupFile02">
                     </div>
-                    <button class="custombutton btn btn-sm offset-10 mt-2 mb-3">Change Favicon</button>
+                    <button class="custombutton btn btn-sm offset-10 mt-2 mb-3 fw-bold">CHANGE FAV-ICON</button>
                     <div class="input-group mb-3 mt-5">
                         <input type="file" class="form-control" id="inputGroupFile02">
                     </div>
-                    <button class="custombutton btn btn-sm offset-10 mt-2 mb-3">Change Logo</button>
+                    <button class="custombutton btn btn-sm offset-10 mt-2 mb-3 fw-bold">CHANGE LOGO</button>
                     <div class="mb-3 mt-2">
                         <label for="exampleFormControlInput1" class="form-label">Write New Name</label>
                         <input type="email" class="customstyle form-control" id="exampleFormControlInput1">
-                        <button class="custombutton btn btn-sm offset-10 mt-4">Change Name</button>
+                        <button class="custombutton btn btn-sm offset-10 mt-4 fw-bold">CHANGE NAME</button>
                     </div>
                     <div class="offset-2">
                         <img src="../../Customer/resource/img/main slider_1.png" alt="" class="slideimg" />
                         <img src="../../Customer/resource/img/main slider_1.png" alt="" class="slideimg" />
                         <img src="../../Customer/resource/img/main slider_1.png" alt="" class="slideimg" />
                         <img src="../../Customer/resource/img/main slider_1.png" alt="" class="slideimg" />
-                        <button class="custombutton btn btn-sm offset-10 mt-4">Add Slider</button>
+                        <button class="custombutton btn btn-sm offset-10 mt-4 fw-bold">ADD SLIDER</button>
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Change Welcome Text</label>
                         <textarea class="customstyle form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         <textarea class="customstyle form-control mt-3" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        <button class="custombutton btn btn-sm offset-10 mt-4">Change Text</button>
+                        <button class="custombutton btn btn-sm offset-10 mt-4 fw-bold">CHANGE WELCOME TEXT</button>
                     </div>
                     <div class="mb-3 mt-2">
                         <label for="exampleFormControlInput1" class="form-label">Write Phone.No</label>
                         <input type="email" class="customstyle form-control" id="exampleFormControlInput1">
-                        <button class="custombutton btn btn-sm offset-10 mt-4">Change Phone</button>
+                        <button class="custombutton btn btn-sm offset-10 mt-4 fw-bold">CHANGE PHONE.NO</button>
                     </div>
                     <div class="mb-3 mt-2">
                         <label for="exampleFormControlInput1" class="form-label">Write Email Address</label>
                         <input type="email" class="customstyle form-control" id="exampleFormControlInput1">
-                        <button class="custombutton btn btn-sm offset-10 mt-4">Change Email</button>
+                        <button class="custombutton btn btn-sm offset-10 mt-4 fw-bold">CHANGE EMAIL ADDRESS</button>
                     </div>
                     <div class="mb-3 mt-2">
                         <label for="exampleFormControlInput1" class="form-label">Write Shop Address</label>
                         <input type="email" class="customstyle form-control" id="exampleFormControlInput1">
-                        <button class="custombutton btn btn-sm offset-10 mt-4">Change Address</button>
+                        <button class="custombutton btn btn-sm offset-10 mt-4 fw-bold">CHANGE SHOP ADDRESS</button>
                     </div>
 
 
@@ -92,13 +92,13 @@
                     <div class="mt-5 ">
                         <table class="table table-striped table-sm container">
                             <tr>
-                                <th class="col-4">No</th>
-                                <th class="col-6">Name</th>
-                                <th class="col-2">Actions</th>
+                                <th class="col-4 ps-4">No</th>
+                                <th class="col-6 ps-3">Name</th>
+                                <th class="col-2 ps-4">Actions</th>
                             </tr>
 
                             <tr>
-                                <td>1</td>
+                                <td class="ps-4">1</td>
                                 <td>Education</td>
                                 <td><button class="btn btn-outline-primary ">
                                         <ion-icon name="create"></ion-icon>
@@ -108,7 +108,7 @@
                             </tr>
 
                             <tr>
-                                <td>2</td>
+                                <td class="ps-4">2</td>
                                 <td>Novels</td>
                                 <td><button class="btn btn-outline-primary ">
                                         <ion-icon name="create"></ion-icon>
@@ -118,7 +118,7 @@
                             </tr>
 
                             <tr>
-                                <td>3</td>
+                                <td class="ps-4">3</td>
                                 <td>Programming</td>
                                 <td><button class="btn btn-outline-primary ">
                                         <ion-icon name="create"></ion-icon>
@@ -127,7 +127,7 @@
                                     </button></td>
                             </tr>
                         </table>
-                        <button class="btn btn-sm offset-10 custombutton">ADD Category</button>
+                        <button class="btn btn-sm offset-10 custombutton fw-bold">ADD CATEGORY</button>
                     </div>
                     <!-- Category Table end -->
 
@@ -135,13 +135,23 @@
                     <div class="mt-5">
                         <table class="table table-striped table-sm">
                             <tr>
-                                <th class="col-1" >No</th>
-                                <th class="col-3">Image</th>
+                                <th class="col-1 ps-4" >No</th>
+                                <th class="col-3 ps-5">Image</th>
                                 <th class="col-6">Guide Paragraph</th>
                                 <th class="col-2">Actions</th>
                             </tr>
                             <tr>
-                                <td>1</td>
+                                <td class="ps-4">1</td>
+                                <td class="ps-1"><img src="../resource/img/faq.png" alt="" class="customimagesize" /> </td>
+                                <td class=" overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur exercitationem ipsum natus recusandae aut commodi doloremque quis eius dicta accusantium sit,</td>
+                                <td><button class="btn btn-outline-primary ">
+                                        <ion-icon name="create"></ion-icon>
+                                    </button> <button class="btn btn-outline-danger mt-1 ">
+                                        <ion-icon name="trash-sharp"></ion-icon>
+                                    </button></td>
+                            </tr>
+                            <tr>
+                                <td class="ps-4">2</td>
                                 <td><img src="../resource/img/faq.png" alt="" class="customimagesize" /> </td>
                                 <td class=" overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur exercitationem ipsum natus recusandae aut commodi doloremque quis eius dicta accusantium sit,</td>
                                 <td><button class="btn btn-outline-primary ">
@@ -151,17 +161,7 @@
                                     </button></td>
                             </tr>
                             <tr>
-                                <td>2</td>
-                                <td><img src="../resource/img/faq.png" alt="" class="customimagesize" /> </td>
-                                <td class=" overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur exercitationem ipsum natus recusandae aut commodi doloremque quis eius dicta accusantium sit,</td>
-                                <td><button class="btn btn-outline-primary ">
-                                        <ion-icon name="create"></ion-icon>
-                                    </button> <button class="btn btn-outline-danger mt-1 ">
-                                        <ion-icon name="trash-sharp"></ion-icon>
-                                    </button></td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
+                                <td class="ps-4">3</td>
                                 <td><img src="../resource/img/faq.png" alt="" class="customimagesize" /> </td>
                                 <td class=" overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur exercitationem ipsum natus recusandae aut commodi doloremque quis eius dicta accusantium sit,</td>
                                 <td><button class="btn btn-outline-primary ">
@@ -171,7 +171,7 @@
                                     </button></td>
                             </tr>
                         </table>
-                        <button class="btn btn-sm offset-10 custombutton">ADD Guide</button>
+                        <button class="btn btn-sm offset-10 custombutton fw-bold">ADD GUIDE</button>
                     </div>
                     <!-- Guide Table end -->
 
@@ -217,7 +217,7 @@
                                     </button></td>
                             </tr>
                         </table>
-                        <button class="btn btn-sm offset-10 custombutton">ADD Delivery Fee</button>
+                        <button class="btn btn-sm offset-10 custombutton fw-bold">ADD DELIVERY FEE</button>
                     </div>
 
 
@@ -263,7 +263,7 @@
                                     </button></td>
                             </tr>
                         </table>
-                        <button class="btn btn-sm offset-10 custombutton">ADD Service</button>
+                        <button class="btn btn-sm offset-10 custombutton fw-bold">ADD SERVICES</button>
                     </div>
 
 
@@ -310,7 +310,7 @@
                                     </button></td>
                             </tr>
                         </table>
-                        <button class="btn btn-sm offset-10 custombutton">ADD Privacy Policy</button>
+                        <button class="btn btn-sm offset-10 custombutton fw-bold">ADD PRIVACY POLICY</button>
                     </div>
 
 
@@ -360,7 +360,7 @@
                                     </button></td>
                             </tr>
                         </table>
-                        <button class="btn btn-sm offset-10 custombutton">ADD FAQs</button>
+                        <button class="btn btn-sm offset-10 custombutton fw-bold">ADD FAQS</button>
                     </div>
                 </div>
                 <!-- App Master End -->
