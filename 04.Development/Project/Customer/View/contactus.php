@@ -51,11 +51,22 @@
 
    <section class="container-fluid">
       <div class="row">
-         <div class="col-12 col-lg-4">
-            <div class="d-flex">
+         <div class="col-12 col-lg-4 bg-success">
+            <h3 class="text-white text-center p-4">Contact Us</h3>
+            <div class="d-flex justify-content-evenly flex-column  p-3">
                <div class="d-flex justify-content-between ">
-                  <i class="fas fa-map-marker "></i>
-                  <p class="ms-3">No-7B,U Tun Lin Chan Lan Street
+                  <i class="fas fa-map-marker text-white "></i>
+                  <p class="ms-3 text-white">No-7B,U Tun Lin Chan Lan Street
+                     Kamayut Township</p>
+               </div>
+               <div class="d-flex justify-content-between ">
+                  <i class="fas fa-envelope"></i>
+                  <p class="ms-3 text-white">No-7B,U Tun Lin Chan Lan Street
+                     Kamayut Township</p>
+               </div>
+               <div class="d-flex justify-content-between ">
+                  <i class="fas fa-map-marker text-white "></i>
+                  <p class="ms-3 text-white">No-7B,U Tun Lin Chan Lan Street
                      Kamayut Township</p>
                </div>
             </div>
