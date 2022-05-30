@@ -23,7 +23,7 @@
         <div id="navbar" class="my-nav"></div>
             <!--Add Book-->
             <div class="col-8 offset-3">
-                <button class="custombutton btn mt-4 col-1 ms-4"><a href="../View/bookInfo.php" class="col-1 text-dark fw-bold">Back</a></button>
+                <button class=" custombutton btn mt-4 col-1 ms-4"><a href="../View/bookInfo.php" class="text-dec col-1 text-dark fw-bold">Back</a></button>
                 <p class="h4 mt-4 ms-4">Insert Book</p>
                 <form>
                     <div class="row container col-md-8 mt-2 ">
@@ -83,7 +83,7 @@
                             <label for="comment" class="mt-3">Description</label>
                             <textarea class="form-control ms-2" rows="8" id="comment" name="text"></textarea>
                         </div>
-                        <button type="submit" class="custombutton btn fw-bold mt-4">Save</button>
+                        <button type="submit" class="custombutton btn fw-bold mt-4 mb-4">ADD BOOK</button>
                     </div>
                 </form>
             </div>

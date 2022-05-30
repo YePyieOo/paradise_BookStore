@@ -135,7 +135,7 @@
                     <div class="mt-5">
                         <table class="table table-striped table-sm">
                             <tr>
-                                <th class="col-1" >No</th>
+                                <th class="col-1">No</th>
                                 <th class="col-3">Image</th>
                                 <th class="col-6">Guide Paragraph</th>
                                 <th class="col-2">Actions</th>
@@ -364,11 +364,11 @@
                     </div>
                 </div>
                 <!-- App Master End -->
-                
-                 <!-- Login Master Start -->
+
+                <!-- Login Master Start -->
                 <div class="lgm closemaster">
 
-                <div class="mt-5 ">
+                    <div class="mt-5 ">
                         <table class="table table-striped table-sm ">
                             <tr>
                                 <th class="col-2">No</th>

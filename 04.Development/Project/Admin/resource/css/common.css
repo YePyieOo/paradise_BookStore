@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
 }
-/* .my-img{
+.my-img{
     width: 120px;
-    height: 120px;
-} */
+}
 .my-nav{
-    
     padding-left: 0px !important;
 }
+/* Nav bar */
 .buttonbox{
     height: 120vh;
     background-color: var(--main-color);
@@ -35,12 +34,23 @@
 .text-dec{
     text-decoration: none;
 }
+/* Table Text */
+.tb-text{
+    text-align: center;
+}
 @media screen and (max-width:1030px){
     .buttonbox{
         width: 13%;
     }
+    .buttonbox .fs-4{
+        display: none;
+    }
     button span{
         display: none;
+    }
+    .my-img{
+        width: 100%;
+        
     }
     .box1{
         height: 12vh;
