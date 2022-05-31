@@ -6,8 +6,8 @@
    --font-color3: #2964da;
    --yellow-icon: #f4d221;
 }
-.my-class{
-    font-family:Inria Sans;
+.my-class {
+   font-family: Inria Sans;
 }
 
 .wrapper {
@@ -20,8 +20,9 @@
 }
 
 .inner-left {
-   border: 30px solid;
-   border-color: var(--primary-darkblue);
+   border: 30px solid #1f4287;
+   /* border-color: var(--primary-darkblue); */
+
    border-right: none;
    background-color: #fff;
 }
@@ -29,7 +30,7 @@
 .inner-right {
    border: 30px solid #fff;
    border-left: none;
-   background-color: blue;
+   background-color: var(--primary-darkblue);
 }
 
 @media (max-width: 768px) {
