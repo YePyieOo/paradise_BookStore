@@ -75,52 +75,53 @@
       </div>
    </nav>
    <!-- nav -->
-   <div class="container header d-flex justify-content-between align-items-center p-4">
+   <div class="container header text-primary d-flex justify-content-between align-items-center p-4">
             <h3>Authors</h3>
             <div>
                 <b>Home</b> -> Authors
             </div>
+            
         </div>
-        <div class="fw-bolder text-primary d-flex justify-content-center align-items-center "><u>All </u><div class="mx-4 text-dark space">  A B C D E F G H I K L M N O P Q R S T U V W X Y Z </div></div>
-        <div >
-        <table class="table mt-5">
-    <tr>
-      <th scope="col">Items</th>
-      <th scope="col"></th>
-      <th scope="col">Price</th>
-      <th scope="col">Quatity</th>
-      <th scope="col">Total</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row"><img src="./education.jpg" alt="" class="images"></th>
-      <td>Book Name<br> Author Name</td>
-      <td>1000</td>
-      <td>2</td>
-      <td>2000</td>
-      <td><ion-icon name="close-circle-outline"></ion-icon></td>
-    </tr>
-    <tr>
-      <th scope="row"><img src="./education.jpg" alt=""></th>
-      <td>Book Name<br> Author Name</td>
-      <td>4000</td>
-      <td>1</td>
-      <td>4000</td>
-      <td><ion-icon name="close-circle-outline"></ion-icon></td>
-    </tr>
-    <tr>
-      <th scope="row"><img src="./education.jpg" alt=""></th>
-      <td>Book Name<br> Author Name</td>
-      <td>5000</td>
-      <td>2</td>
-      <td>10000</td>
-      <td><ion-icon name="close-circle-outline"></ion-icon></td>
-    </tr>
-  </tbody>
-</table>
-        </div>
+        <div class="container d-flex justify-content-center  align -items-center my-4"><u class="text-primary">ALL</u> A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</div>
+        <div class="container-fluid d-flex justify-content-between align-items-center my-4">
+      <div class="container">
+         <div class="row g-0">
+            <?php for ($i = 0; $i < 12; $i++) : ?>
+               <div class="col-12 col-md-6 col-lg-3 text-light header d-flex justify-content-between align-items-center my-2">
+                  <div class="my-card">
+                     <div class="my-card-img">
+                        <img src="../resource/img/author.png" class="rounded-circle" alt="">
+                     </div>
+                     <div class="my-card-info">
+                        
+                        <div class="mb-2">
+                           <span style="font-size:x-small">
+                              <?php for ($s = 0; $s < 5; $s++) : ?>
+                           
+                                <!-- <button class="btn card-button px-1 rounded-1 me-1">Author Profile -->
+                                <!-- <button class="btn btn-outline-primary mb-3">Sign in -->
+                                    <!-- <i class="fa-solid fa-star"></i> -->
+                             
+                                    <!-- <i class="fa-regular fa-star"></i> -->
+                              
+                              <?php endfor ?>
+                              <!-- <button></button> -->
+                           </span><br>
+                           <h3 class="text-primary d-flex  justify-content-center align-items-center  font-color-primary mt-2"><b>Min Thein Kha</b></h3>
+                           <span style="font-size:larger;" class="text-light btn-primary p-2 rounded-3 d-flex  justify-content-center align-items-center  font-color-primary mt-3 ">Author Profile</span>
+                        </div>
+                        <!-- <p style="font-weight:500 ;">3500 MMK</p>
+                        <button class="btn card-button px-1 rounded-1 me-1"><i class="fa-solid fa-cart-shopping me-1"></i>add
+                           to
+                           cart</button> -->
+                        <!-- <span class="btn btn-primary card-button"><i class="fa-solid fa-eye"></i> 4</span> -->
+                     </div>
+                  </div>
+               </div>
+            <?php endfor ?>
+         </div>
+      </div>
+   </div>
    <!-- footer -->
    <footer id="footer" class="container-fluid commom-bg mt-5">
       <div class="row">

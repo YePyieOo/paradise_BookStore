@@ -16,7 +16,7 @@
 
 <body>
    <!-- nav -->
-   <!-- <nav class="navbar navbar-expand-lg bg-light ">
+   <nav class="navbar navbar-expand-lg bg-light ">
       <div class="container-fluid">
          <a class="navbar-brand font-color-primary ps-3 " href="#">
             <img src="../resource/img/main-logoNew.png" alt="main-logo" class="d-inline-block align-text-top main-logo">
@@ -73,14 +73,14 @@
             </div>
          </div>
       </div>
-   </nav> -->
+   </nav>
    <!-- nav -->
    <div class="container-fluid header p-4">
       <div class="container d-flex justify-content-between align-items-center">
-      <h3 class="text-primary">Language</h3>
-      <div class="text-primary">
-         <b>Home</b> -> Language
-      </div>
+         <h3 class="text-primary">Language</h3>
+         <div c>
+            <b>Home</b> -> Language
+         </div>
       </div>
    </div>
    </div>
