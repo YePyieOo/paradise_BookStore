@@ -23,14 +23,14 @@
         <div id="navbar" class="my-nav"></div>
             <!--Add Shop-->
             <div class="col-8 offset-3">
-                <button class="custombutton btn mt-4 col-1 ms-4"><a href="../View/shopInfo.php" class="col-1 text-dark fw-bold">Back</a></button>
+                <button class="custombutton btn btn-sm mt-4 ms-4"><a href="../View/shopInfo.php" class="text-dec col-1 text-dark fw-bold">Back</a></button>
                 <p class="h4 mt-4 ms-4">Insert Shop</p>
                 <form>
-                    <div class="row container col-md-8 mt-3 ">
+                    <div class="row container col-md-9 mt-3 ">
                         <div class="row">
                             <div class="col mb-3 mt-3">
                                 <label for="email" class="form-label">Shop</label><br>
-                                <select name="" id="">
+                                <select name="" id="" class="btn-drop">
                                     <option value="Yangon">Yangon</option>
                                     <option value="Mandalay">Mandalay</option>
                                     <option value="Nay Pyi Taw">Nay Pyi Taw</option>
@@ -38,17 +38,17 @@
                             </div>
                             <div class="col mb-3 mt-3 ms-4">
                                 <label for="pwd" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="pwd" name="">
+                                <input type="text" class="customstyle form-control" id="pwd" name="">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col mb-3 mt-3 ">
                                 <label for="email" class="form-label">Phone</label>
-                                <input type="email" class="form-control" id="email" name="">
+                                <input type="email" class="customstyle form-control" id="email" name="">
                             </div>
                             <div class="col mb-3 mt-3 ms-4">
                                 <label for="pwd" class="form-label">Website</label>
-                                <input type="text" class="form-control" id="pwd" name="">
+                                <input type="text" class="customstyle form-control" id="pwd" name="">
                             </div>
                         </div>
                         <div class="row">
@@ -57,11 +57,11 @@
                                 <input type="file" class="form-control" id="email" name="">
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row mt-2">
                             <label for="comment">Address</label>
-                            <textarea class="form-control ms-2" rows="8" id="comment" name="text"></textarea>
+                            <textarea class="customstyle form-control ms-2" rows="8" id="comment" name="text"></textarea>
                         </div>
-                        <button type="submit" class="custombutton btn fw-bold mt-4">Save</button>
+                        <button type="submit" class="custombutton btn fw-bold mt-4 mb-4">ADD SHOP</button>
                     </div>
                 </form>
             </div>

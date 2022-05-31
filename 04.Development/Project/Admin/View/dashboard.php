@@ -25,7 +25,7 @@
             <!-- Navbar Start -->
             <div id="navbar" class="my-nav"></div>
             <!-- Dashboard -->
-            <div class="col-8 offset-3">
+            <div class="col-8 offset-3 container">
                 <div class="top-box offset-8">
                     <div class="top"><ion-icon name="person" class="fs-2 text-primary"></ion-icon></div>
                     <div class="top"><a href="#" class="me-md-5 text-dec fs-5">CustomerPage</a></div>

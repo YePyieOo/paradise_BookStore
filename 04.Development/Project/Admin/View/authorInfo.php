@@ -26,16 +26,15 @@
             <!-- Author List-->
             <div class="col-8 offset-3">
                 <p class="h3 mt-4">Author List</p>
-                
                 <table class="table table-striped table-sm mt-4">
-                    <tr>
+                    <tr class="tb-text">
                         <th>No</th>
                         <th class="col-1">Image</th>
                         <th class="col-1">Name</th>
                         <th>Biography</th>
-                        <th>Action</th>
+                        <th>Actions</th>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>1</td>
                         <td><img src="../resource/img/authors/minlu.jpg" alt="" class="customimagesize" /> </td>
                         <td >Min Lu</td>
@@ -48,7 +47,7 @@
                             </button>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>2</td>
                         <td><img src="../resource/img/authors/minlu.jpg" alt="" class="customimagesize" /> </td>
                         <td >Min Lu</td>
@@ -61,7 +60,7 @@
                             </button>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>3</td>
                         <td ><img src="../resource/img/authors/minlu.jpg" alt="" class="customimagesize" /> </td>
                         <td >Min Lu</td>
@@ -75,7 +74,7 @@
                         </td>
                     </tr>
                 </table>
-                <button class="custombutton btn-sm offset-10  bg-warning  col-2"><a href="../View/addAuthor.php" class="fw-bold text-dark">ADD AUTHOR</a></button>
+                <button class="custombutton btn-sm offset-10  bg-warning  col-2"><a href="../View/addAuthor.php" class="text-dec fw-bold text-dark">ADD AUTHOR</a></button>
             </div>
         </div>
     </div>
