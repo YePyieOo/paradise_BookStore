@@ -26,8 +26,7 @@
             <div class="col-8 offset-3">
                 <p class="h3 mt-4">User List</p>
                 <table class="table table-striped mt-4">
-                    <tr>
-                    <tr class="bg-warning">
+                    <tr class="tb-text bg-warning">
                         <th class="col-1">No</th>
                         <th class="col-2">Name</th>
                         <th class="col-3 ">Email</th>
@@ -35,8 +34,7 @@
                         <th class="col-4">Address</th>
                         <th>Ban</th>
                     </tr>
-                    </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>1</td>
                         <td>helloJohn</td>
                         <td>john123@gmail.com </td>
@@ -50,7 +48,7 @@
                             </button> 
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>2</td>
                         <td>helloMary</td>
                         <td>john123@gmail.com </td>
@@ -64,7 +62,7 @@
                             </button> 
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>3</td>
                         <td>helloNora</td>
                         <td>john123@gmail.com </td>

@@ -25,21 +25,19 @@
             <!-- Navbar Start -->
             <div id="navbar" class="my-nav"></div>
             <!-- Dashboard -->
-            <div class="col-8 offset-3">
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
-                    <button class="admin-log me-md-3 text-primary ">
-                        <ion-icon name="person" class="fs-3"></ion-icon>
-                    </button>
-                    <a href="#" class="me-md-5 mt-2 text-dec fs-4">CustomerPage</a>
+            <div class="col-8 offset-3 container">
+                <div class="top-box offset-8">
+                    <div class="top"><ion-icon name="person" class="fs-2 text-primary"></ion-icon></div>
+                    <div class="top"><a href="#" class="me-md-5 text-dec fs-5">CustomerPage</a></div>
                 </div>
                 <div class="box">
                     <div class="box1">
                         <ion-icon name="person-circle-outline" class="iconic"></ion-icon>
                         <p class="number">User</p>
-                        <p class="quantity">30k</p>
+                        <p class="quantity fs-4 mt-1">30k</p>
                     </div>
                     <div class="box1">
-                    <ion-icon name="cart-outline" class="iconic  "></ion-icon>
+                        <ion-icon name="cart-outline" class="iconic  "></ion-icon>
                         <p class="number">Sale</p>
                         <p class="quantity">20k</p>
                     </div>
@@ -53,47 +51,48 @@
                     <p class="h4 mt-1">Monthly Order</p>
                     <canvas id="myChart"></canvas>
                 </div>
-                <div class="row mt-4 ms-4">
-                <p class="h4 mt-1">Daily Order</p>
-                <table class="table table-striped mt-4">
-                    <tr class="bg-warning">
-                        <th class="col-1">No</th>
-                        <th class="col-2">Customer</th>
-                        <th class="col-2">Date</th>
-                        <th class="col-2 ">Amount</th>
-                        <th class="col-3">Address</th>
-                        <th class="col-2">Delivery Fees</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>helloJohn</td>
-                        <td>25.05.2022</td>
-                        <td>6,000MMK</td>
-                        <td>No.7B,Kamayut Township</td>
-                        <td>2,000MMK</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>helloMary</td>
-                        <td>25.05.2022</td>
-                        <td>6,000MMK</td>
-                        <td>No.7B,Kamayut Township</td>
-                        <td>2,000MMK</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>helloNora</td>
-                        <td>25.05.2022</td>
-                        <td>6,000MMK</td>
-                        <td>No.7B,Kamayut Township</td>
-                        <td>2,000MMK</td>
-                    </tr>
-                </table>
+                <div class="row mt-4 ms-4 container md-4">
+                    <p class="h4 mt-1">Daily Order</p>
+                    <table class="table table-striped mt-4 mb-4 ms-2 ">
+                        <tr class="bg-warning">
+                            <th class="col-1">No</th>
+                            <th class="col-2">Customer</th>
+                            <th class="col-2">Date</th>
+                            <th class="col-2 ">Amount</th>
+                            <th class="col-3">Address</th>
+                            <th class="col-2">Delivery Fees</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>helloJohn</td>
+                            <td>25.05.2022</td>
+                            <td>6,000MMK</td>
+                            <td>No.7B,Kamayut Township</td>
+                            <td>2,000MMK</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>helloMary</td>
+                            <td>25.05.2022</td>
+                            <td>6,000MMK</td>
+                            <td>No.7B,Kamayut Township</td>
+                            <td>2,000MMK</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>helloNora</td>
+                            <td>25.05.2022</td>
+                            <td>6,000MMK</td>
+                            <td>No.7B,Kamayut Township</td>
+                            <td>2,000MMK</td>
+                        </tr>
+                    </table>
                 </div>
-                
+
             </div>
 
         </div>
     </div>
 </body>
+
 </html>

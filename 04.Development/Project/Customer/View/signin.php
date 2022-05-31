@@ -12,6 +12,9 @@
    <link rel="stylesheet" href="../resource/css/signin.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
    <link rel="stylesheet" href="../resource/UI Library/fontawesome-free/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -76,32 +79,32 @@
    </nav>
    <!-- nav -->
    <div class="wrapper">
-        <div class="col-12 col-md-6 mx-auto">
-            <div class="row g-0 flex-column-reverse flex-md-row">
-                <div class="col-12 col-md-6 inner-left">
-                    <div class="text-center m-5">
-                        <h3 class="text-primary mb-3">Sign in</h3>
-                        <form action="">
-                            <input class="form-control mb-3" type="text" name="" id="" placeholder="email">
-                            <input class="form-control mb-3" type="text" name="" id="" placeholder="password">
-                            <button class="btn btn-outline-primary mb-3">Sign in</button>
-                        </form>
-                        <h6 class="text-primary">forget password?</h6>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 inner-right">
-                    <div class="text-center m-5 h-100">
-                        <h2 class="text-white">Welcome To Our Book Store!</h2>
-                        <p class="text-light">New Here!</p>
-                        <button class="btn btn-light text-primary">Sign Up</button>
-                    </div>
-                </div>
+      <div class="col-12 col-md-6 mx-auto">
+         <div class="row g-0 flex-column-reverse flex-md-row">
+            <div class="col-12 col-md-6 inner-left">
+               <div class="text-center m-5">
+                  <h3 class="my-class text-primary mb-3">Sign in</h3>
+                  <form action="">
+                     <input class="form-control mb-3" type="text" name="" id="" placeholder="email">
+                     <input class="form-control mb-3" type="text" name="" id="" placeholder="password">
+                     <button class="btn btn-outline-primary mb-3">Sign in</button>
+                  </form>
+                  <h6 class="text-primary">forget password?</h6>
+               </div>
             </div>
-        </div>
-    </div>
+            <div class="col-12 col-md-6 inner-right">
+               <div class="text-center m-5 h-100">
+                  <h2 class="text-white">Welcome To Our Book Store!</h2>
+                  <p class="text-light">New Here!</p>
+                  <button class="btn btn-light text-primary">Sign Up</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
 
-    <!-- footer -->
-    <footer id="footer" class="container-fluid commom-bg">
+   <!-- footer -->
+   <footer id="footer" class="container-fluid commom-bg">
       <div class="row">
          <div class="col-12 col-lg-4 ps-5 pt-4">
             <div class="">
@@ -213,6 +216,7 @@
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
    <script src="../resource/UI Library/fontawesome-free/js/all.min.js"></script>
+   <script src="../resource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
    <script type="text/javascript">
       $(".slider").slick({
          prevArrow: '<span class="priv_arrow btn  btn-primary "><i class="fas fa-angle-left"></i></span>',

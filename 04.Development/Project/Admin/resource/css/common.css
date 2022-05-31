@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
 }
-/* .my-img{
+.my-img{
     width: 120px;
-    height: 120px;
-} */
+}
 .my-nav{
-    
     padding-left: 0px !important;
 }
+/* Nav bar */
 .buttonbox{
     height: 120vh;
     background-color: var(--main-color);
@@ -24,6 +23,7 @@
 .logout:focus{
     background-color: var(--dashboard-items-color);
 }
+/* Button Color */
 .custombutton{
     background-color: var(--btn-color);
     color: var( --color-black);
@@ -35,12 +35,25 @@
 .text-dec{
     text-decoration: none;
 }
+/* Table Text */
+.tb-text{
+    text-align: center;
+}
+.icons{
+    margin-top: 2.1px;
+}
 @media screen and (max-width:1030px){
     .buttonbox{
         width: 13%;
     }
-    button span{
+    .buttonbox .fs-4{
         display: none;
+    }
+    button a{
+        display: none;
+    }
+    .my-img{
+        width: 100%;
     }
     .box1{
         height: 12vh;
@@ -52,4 +65,5 @@
         font-size: 10px;
         font-weight: 800;
     }
+    
 }

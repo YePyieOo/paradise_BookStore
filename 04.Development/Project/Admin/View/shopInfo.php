@@ -27,16 +27,16 @@
                 <!-- Yangon Shop List -->
                 <p class="h3 mt-4 ">Yangon Shop List</p>
                 <table class="table table-striped mt-3">
-                    <tr class="bg-danger">
+                    <tr class="tb-text bg-danger">
                         <th>No</th>
                         <th class="col-1">Image</th>
                         <th class="col-1">Name</th>
                         <th class="col-4">Address</th>
                         <th class="col-2">Phone</th>
                         <th>Website</th>
-                        <th>Action</th>
+                        <th>Actions</th>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>1</td>
                         <td><img src="../resource/img/shop/innwa.jpg" alt="" class="customimagesize" /> </td>
                         <td>INNWA</td>
@@ -53,7 +53,7 @@
                             </button>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>2</td>
                         <td><img src="../resource/img/shop/shop2.jpg" alt="" class="customimagesize" /> </td>
                         <td>INNWA</td>
@@ -70,7 +70,7 @@
                             </button>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>3</td>
                         <td><img src="../resource/img/shop/innwa.jpg" alt="" class="customimagesize" /> </td>
                         <td>INNWA</td>
@@ -88,21 +88,21 @@
                         </td>
                     </tr>
                 </table>
-                <button class="custombutton btn btn-sm offset-10 col-2"><a href="../View/addShop.php" class="text-dark fw-bold">ADD SHOP</a></button>
+                <button class="custombutton btn btn-sm offset-10 col-2"><a href="../View/addShop.php" class="text-dec text-dark fw-bold">ADD SHOP</a></button>
                 <!-- Mandalay Shop List -->
                 <div class="row">
                     <p class="h3 mt-4">Mandalay Shop List</p>
                     <table class="table table-striped mt-3">
-                        <tr class="bg-danger">
+                        <tr class="tb-text bg-danger">
                             <th>No</th>
                             <th class="col-1">Image</th>
                             <th class="col-1">Name</th>
                             <th class="col-4">Address</th>
                             <th class="col-2">Phone</th>
                             <th>Website</th>
-                            <th>Action</th>
+                            <th>Actions</th>
                         </tr>
-                        <tr>
+                        <tr class="tb-text">
                             <td>1</td>
                             <td><img src="../resource/img/shop/innwa.jpg" alt="" class="customimagesize" /> </td>
                             <td>INNWA</td>
@@ -119,7 +119,7 @@
                                 </button>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="tb-text">
                             <td>2</td>
                             <td><img src="../resource/img/shop/shop2.jpg" alt="" class="customimagesize" /> </td>
                             <td>INNWA</td>
@@ -136,7 +136,7 @@
                                 </button>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="tb-text">
                             <td>3</td>
                             <td><img src="../resource/img/shop/innwa.jpg" alt="" class="customimagesize" /> </td>
                             <td>INNWA</td>
@@ -154,14 +154,14 @@
                             </td>
                         </tr>
                     </table>
-                    <button class="custombutton btn btn-sm offset-10 col-2"><a href="../View/addShop.php" class="text-dark fw-bold">ADD SHOP</a></button>
+                    <button class="custombutton btn btn-sm offset-10 col-2"><a href="../View/addShop.php" class="text-dec text-dark fw-bold">ADD SHOP</a></button>
                 </div>
 
                 <!-- Nay Pyi Taw Shop List -->
                 <div class="row">
                     <p class="h3 mt-4">Nay Pyi Taw Shop List</p>
                     <table class="table table-striped mt-3">
-                        <tr class="bg-danger">
+                        <tr class="tb-text bg-danger">
                             <th>No</th>
                             <th class="col-1">Image</th>
                             <th class="col-1">Name</th>
@@ -171,7 +171,7 @@
                             <th>Action</th>
                         </tr>
                         
-                        <tr>
+                        <tr class="tb-text">
                             <td>1</td>
                             <td><img src="../resource/img/shop/innwa.jpg" alt="" class="customimagesize" /> </td>
                             <td>INNWA</td>
@@ -188,7 +188,7 @@
                                 </button>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="tb-text">
                             <td>2</td>
                             <td><img src="../resource/img/shop/shop2.jpg" alt="" class="customimagesize" /> </td>
                             <td>INNWA</td>
@@ -205,7 +205,7 @@
                                 </button>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="tb-text">
                             <td>3</td>
                             <td><img src="../resource/img/shop/innwa.jpg" alt="" class="customimagesize" /> </td>
                             <td>INNWA</td>
@@ -223,7 +223,7 @@
                             </td>
                         </tr>
                     </table>
-                    <button class="custombutton btn btn-sm offset-10 col-2"><a href="../View/addShop.php" class="text-dark fw-bold">ADD SHOP</a></button>
+                    <button class="custombutton btn btn-sm offset-10 col-2 mb-4"><a href="../View/addShop.php" class="text-dec text-dark fw-bold">ADD SHOP</a></button>
                 </div>
             </div>
         </div>

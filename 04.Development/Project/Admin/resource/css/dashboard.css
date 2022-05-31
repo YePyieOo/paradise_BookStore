@@ -6,7 +6,6 @@
     background-color: var(--dashboard-items-color);
     color: var( --color-white);
 }
-
 .iconic{
     font-size: 3.5em;
     color: black;
@@ -14,7 +13,7 @@
 .admin-log{
     border: none;
 }
-.box{
+.box,.top-box{
     padding-top: 3em;
     display: flex;
     flex-wrap: wrap;
@@ -32,28 +31,27 @@
     border-radius: 15px;
     background-color: var( --dashboard-items-color);
 }
+.top{
+    margin-left: 2em;
+    
+}
 .quantity{
     font-size: 1.5em;
     color: black;
     padding-top: 2em;
 }
 .number{
-    font-size: 2em;
-    padding-top: 0.5em;
+    font-size: 1.5em;
+    font-weight: 800;
+    padding-top: 1em;
     color: black;
 }
-/* .customtable{
-    width: 50%;
+.my-col{
+    padding-top: 2.1em;
+    padding-right: 8em;
 }
-.custombutton{
-    background-color: var(--btn-color);
-    color: var( --color-black);
-}
-.customimagesize{
-    width: 50%;
-} */
+
 @media screen and (max-width:720px){
-    
     button span{
         display: none;
     }
@@ -62,5 +60,8 @@
     }
     .number,.quantity{
         display: none;
+    }
+    .table{
+        margin-right: 5%;
     }
 }

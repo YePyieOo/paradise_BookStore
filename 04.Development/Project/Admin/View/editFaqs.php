@@ -14,7 +14,7 @@
 
 <body>
   <div class="container-fluid mt-5">
-    <button class="custombutton btn btn-sm offset-4 ">Back</button>
+    <button class="custombutton btn btn-sm offset-4 fw-bold">BACK</button>
     <div class="row offset-4">
       <div class="col-5 mt-3">
         <div class="mb-3">
@@ -39,7 +39,7 @@
 
 
         </div>
-        <button class="custombutton btn btn-sm offset-10 mt-3">Save</button>
+        <button class="custombutton btn btn-sm offset-10 mt-3 fw-bold">SAVE</button>
 
       </div>
     </div>

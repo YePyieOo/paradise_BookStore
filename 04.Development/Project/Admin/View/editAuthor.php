@@ -22,12 +22,12 @@
         <div id="navbar" class="my-nav"></div>
             <!--Input Box for Editting Author-->
             <div class="col-8 offset-3">
-                <button class="custombutton btn mt-4 ms-4 col-1"><a href="../View/authorInfo.php" class="text-dark fw-bold">Back</a></button>
+                <button class="custombutton btn btn-sm mt-4 ms-4"><a href="../View/authorInfo.php" class="text-dec text-dark fw-bold">Back</a></button>
                 <form>
                     <div class="row container col-md-7 mt-4 ">
                         <div class="mb-3 mt-3">
                             <label for="email" class="form-label">Name</label>
-                            <input type="email" class="form-control" id="email" name="aut_name">
+                            <input type="email" class="customstyle customstyle form-control" id="email" name="aut_name">
                         </div>
                         <div class="mb-3 mt-3">
                             <label for="pwd" class="form-label">Image</label>
@@ -35,9 +35,9 @@
                         </div>
 
                         <label for="comment" class="mt-3">Biography</label>
-                        <textarea class="form-control ms-2" rows="8" id="comment" name="text"></textarea>
+                        <textarea class="customstyle form-control ms-2" rows="8" id="comment" name="text"></textarea>
                         
-                        <button type="submit" class="custombutton btn btn-warning fw-bold mt-4 ms-2">Save</button>
+                        <button type="submit" class="custombutton btn btn-warning fw-bold mt-4 ms-2">SAVE</button>
                     </div>
                 </form>
             </div>

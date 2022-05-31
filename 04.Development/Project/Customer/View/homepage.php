@@ -6,10 +6,12 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Homepage</title>
-   <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
    <link rel="stylesheet" href="../resource/css/style.css" />
    <link rel="stylesheet" href="../resource/css/homepage.css" />
+   <link rel="stylesheet" href="../resource/UI Library/slick/slick.css">
+   <link rel="stylesheet" href="../resource/UI Library/slick/slick-theme.css">
    <link rel="stylesheet" href="../resource/UI Library/fontawesome-free/css/all.min.css">
+   <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
 </head>
 
 <body>
@@ -74,7 +76,7 @@
    </nav>
    <section id="welcome-section" class="container mt-5 ">
       <div class="row pt-5  ">
-         <!-- <div class="col-12 col-lg-6 ps-5 pb-5">
+         <div class="col-12 col-lg-6 ps-5 pb-5">
             <div class="slider secondary-bg content">
                <div class="">
                   <img class="img-slide1" src="../resource/img/main slider_1.png" alt="">
@@ -83,7 +85,7 @@
                   <img class="img-slide2" src="../resource/img/main slider_2.png" alt="">
                </div>
             </div>
-         </div> -->
+         </div>
          <div class="col-12 col-lg-1"></div>
          <div class="col-12 col-lg-5">
             <div class="pt-5 content  ">
@@ -512,7 +514,7 @@
          </div>
 
          <div class="col-12 col-lg-4 col-xl-2 book-card-lg2">
-            <div class="card py-3">
+            <div class="card py-3 cardLg">
                <img src="../resource/img/book cover/jsEi.png" class="img-fluid w-75 mx-auto mt-3" alt="" />
                <div class="card-body d-flex flex-column justify-content-center align-items-center">
                   <small>
@@ -588,7 +590,7 @@
                      </button>
                   </div>
                   <div class="col-9 ps-3">
-                     <p class=" m-0 pt-3 fw-bold fs-5">100</p>
+                     <p class=" m-0 pt-3 fw-bold fs-4 counter-one">100</p>
                      <p class=" m-0 pb-3">Total Books</p>
                   </div>
                </div>
@@ -604,7 +606,7 @@
                      </button>
                   </div>
                   <div class="col-9 ps-4">
-                     <p class=" m-0 pt-3 fw-bold fs-5">100</p>
+                     <p class=" m-0 pt-3 fw-bold fs-4 counter-one">100</p>
                      <p class=" m-0 pb-3">Authors</p>
                   </div>
                </div>
@@ -621,7 +623,7 @@
                      </button>
                   </div>
                   <div class="col-9 ps-4">
-                     <p class=" m-0 pt-3 fw-bold fs-5">100</p>
+                     <p class=" m-0 pt-3 fw-bold fs-4 counter-one">100</p>
                      <p class=" m-0 pb-3">Sold Books</p>
                   </div>
                </div>
@@ -638,7 +640,7 @@
                      </button>
                   </div>
                   <div class="col-9 ps-4">
-                     <p class=" m-0 pt-3 fw-bold fs-5">100</p>
+                     <p class=" m-0 pt-3 fw-bold fs-4 counter-one">100</p>
                      <p class=" m-0 pb-3">Happy Customers</p>
                   </div>
                </div>
@@ -760,27 +762,50 @@
          </div>
       </div>
    </footer>
-   <!-- <a onclick="topFunction()" id="myBtn" class="btn" title="Go to top">Top</a> -->
 
-   <a href="#welcome-section" class="btn btn-primary position-fixed  scroll-to-top  scroll-to-top-d ">
-      hello
+   <a href="#welcome-section" onclick="topFunction()" id="myBtn" class="btn btn-primary  rounded  position-fixed  scroll-to-top  scroll-to-top-d">
+      <i class="fas fa-angle-up"></i>
    </a>
 
-
-
    <script src="../resource/UI Library/jquery-3.3.1.min.js"></script>
-   <script src="../resource/js/homepage.js"></script>
    <script src="../resource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
    <script src="../resource/UI Library/fontawesome-free/js/all.min.js"></script>
    <script src="https://unpkg.com/scrollreveal"></script>
    <script src="../resource/UI Library/way_point/noframework.waypoints.js"></script>
+   <script src="../resource/UI Library/slick/slick.js"></script>
+   <script src="../resource/UI Library/way_point/jquery.waypoints.js"></script>
+   <script src="../resource/UI Library/counter_up/counter_up.js"></script>
    <script type="text/javascript">
-      //Get the button:
-      mybutton = document.getElementById("myBtn");
+      // Counter_Up
+      $(".counter-one").counterUp({
+         delay: 10,
+         time: 1500
+      })
 
-      // When the user scrolls down 20px from the top of the document, show the button
+
+
+      // Slider
+      $(".slider").slick({});
+
+
+      // Scroll Effect
+      ScrollReveal({
+         origin: 'top',
+         distance: '30px',
+         duration: 1000,
+         reset: true,
+      }).reveal('.content', {
+         interval: 200
+      });
+
+
+
+
+
+      // Scroll To Top
+      let mybutton = document.getElementById("myBtn");
       window.onscroll = function() {
          scrollFunction()
       };
@@ -793,36 +818,10 @@
          }
       }
 
-      // When the user clicks on the button, scroll to the top of the document
       function topFunction() {
-         document.body.scrollTop = 0; // For Safari
-         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+         document.body.scrollTop = 0;
+         document.documentElement.scrollTop = 0;
       }
-
-
-
-      // let hello = $("#blueBox").Waypoint(function() {
-      //    console.log("hello")
-      //    $(".navbar").toggleClass("bg-light").toggleClass("bg-success");
-      // }, {
-      //    offset: "20%"
-      // })
-
-
-      // $(".slider").slick({
-      //    prevArrow: '<span class="priv_arrow btn  btn-primary "><i class="fas fa-angle-left"></i></span>',
-      //    nextArrow: '<span class="next_arrow btn btn-primary "><i class="fas fa-angle-right"></i></span>'
-      // });
-
-
-      ScrollReveal({
-         origin: 'top',
-         distance: '30px',
-         duration: 1000,
-         reset: true,
-      }).reveal('.content', {
-         interval: 200
-      });
    </script>
 </body>
 

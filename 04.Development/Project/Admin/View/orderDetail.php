@@ -25,33 +25,33 @@
             <div class="col-8 offset-3">
             <p class="h4 mt-5">Order Detail</p>
             <table class="table table-striped mt-4 col-10">
-                    <tr class="bg-danger">
+                    <tr class="tb-text bg-danger">
                         <th class="col-1">No</th>
                         <th class="col-2">BookName</th>
                         <th class="col-3">Price</th>
                         <th class="col-2">Quantity</th>
                         <th class="col-1">Total</th>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>1</td>
                         <td>N5</td>
-                        <td>3,500MMK</td>
+                        <td>3,500 MMK</td>
                         <td>2</td>
-                        <td>7,000MMK</td>
+                        <td>7,000 MMK</td>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>2</td>
                         <td>N5</td>
-                        <td>3,500MMK</td>
+                        <td>3,500 MMK</td>
                         <td>2</td>
-                        <td>7,000MMK</td>
+                        <td>7,000 MMK</td>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>3</td>
                         <td>N5</td>
-                        <td>3,500MMK</td>
+                        <td>3,500 MMK</td>
                         <td>2</td>
-                        <td>7,000MMK</td>
+                        <td>7,000 MMK</td>
                     </tr>
                 </table>
             </div>
