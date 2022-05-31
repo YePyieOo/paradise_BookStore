@@ -88,7 +88,7 @@
                      <input class="form-control mb-3" type="text" name="" id="" placeholder="Email">
                      <div class="position-relative">
                         <input class="form-control mb-3" type="text" name="" id="" placeholder="Password">
-                        <ion-icon name="eye-outline" class="position-absolute"></ion-icon>
+                        <ion-icon name="eye-outline" class="position-absolute end-0 top-50 translate-middle"></ion-icon>
                      </div>
                      <button class="btn btn-outline-primary mb-3">Sign in</button>
                   </form>

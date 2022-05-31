@@ -79,7 +79,7 @@
    </nav>
    <!-- nav -->
    <div class="wrapper ">
-      <div class="col-12 col-md-6 mx-auto ">
+      <div class="col-12 col-md-6 mx-auto">
          <div class="row g-0 flex-column-reverse flex-md-row ">
             <div class="col-12 col-md-6  commom-bg">
                <div class="text-center mt-5 h-100 ">
@@ -89,16 +89,19 @@
                   <button class="btn btn-light text-primary mt-4 px-4 fw-bolder">SIGN IN</button>
                </div>
             </div>
-            <div class="col-12 col-md-6 inner-left">
+            <div class="col-12 col-md-6 bg-light">
                <div class="text-center m-3">
                   <h3 class="fw-bolder">Create Account</h3>
                   <p>use your email for registration</p>
                   <form action="">
-                     <input class="mb-3 px-3" type="text" name="" id="" placeholder="Name">
-                     <input class="mb-3 px-3" type="text" name="" id="" placeholder="Password">
-                     <input class="mb-3 px-3" type="text" name="" id="" placeholder="Email">
-                     <input class="mb-3 px-3" type="text" name="" id="" placeholder="Phone">
-                     <input class="mb-3 px-3" type="text" name="" id="" placeholder="Address">
+                  <input class="form-control mb-3" type="text" name="" id="" placeholder="Name">
+                     <div class="position-relative">
+                        <input class="form-control mb-3" type="text" name="" id="" placeholder="Password">
+                        <ion-icon name="eye-outline" class="position-absolute end-0 top-50 translate-middle"></ion-icon>
+                     </div>
+                     <input class="form-control mb-3" type="text" name="" id="" placeholder="Email">
+                     <input class="form-control mb-3" type="text" name="" id="" placeholder="Phone">
+                     <input class="form-control mb-3" type="text" name="" id="" placeholder="Address">
                      <button class="btn btn-outline-primary mb-3 fw-bolder">SIGN UP</button>
                   </form>
                </div>
