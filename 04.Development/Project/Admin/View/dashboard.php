@@ -51,7 +51,7 @@
                     <p class="h4 mt-1">Monthly Order</p>
                     <canvas id="myChart"></canvas>
                 </div>
-                <div class="row mt-4 ms-4">
+                <div class="row mt-4 ms-4 container md-4">
                     <p class="h4 mt-1">Daily Order</p>
                     <table class="table table-striped mt-4 mb-4 ms-2 ">
                         <tr class="bg-warning">
