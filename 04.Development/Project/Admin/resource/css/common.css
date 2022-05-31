@@ -39,6 +39,7 @@
 .tb-text{
     text-align: center;
 }
+<<<<<<< HEAD
 /* DropDown */
 .btn-drop{
     width: 17em;
@@ -51,6 +52,10 @@
 }
 .back-icon{
     display: none;
+=======
+.icons{
+    margin-top: 2.1px;
+>>>>>>> origin/main
 }
 @media screen and (max-width:1030px){
     .buttonbox{
@@ -59,7 +64,7 @@
     .buttonbox .fs-4{
         display: none;
     }
-    button span{
+    button a{
         display: none;
     }
     .my-img{

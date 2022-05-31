@@ -87,18 +87,18 @@
                 <!-- site Master end -->
 
                 <!-- App Master start -->
-                <div class="custom closemaster">
+                <div class="custom closemaster mb-4">
                     <!-- Category Table start -->
                     <div class="mt-5 ">
                         <table class="table table-striped table-sm container">
-                            <tr>
-                                <th class="col-4 ps-4">No</th>
-                                <th class="col-6 ps-3">Name</th>
-                                <th class="col-2 ps-4">Actions</th>
+                            <tr class="tb-text">
+                                <th class="col-4 ">No</th>
+                                <th class="col-6 ">Name</th>
+                                <th class="col-2 ">Actions</th>
                             </tr>
 
-                            <tr>
-                                <td class="ps-4">1</td>
+                            <tr class="tb-text">
+                                <td class="">1</td>
                                 <td>Education</td>
                                 <td><button class="btn btn-outline-primary ">
                                         <ion-icon name="create"></ion-icon>
@@ -107,8 +107,8 @@
                                     </button></td>
                             </tr>
 
-                            <tr>
-                                <td class="ps-4">2</td>
+                            <tr class="tb-text">
+                                <td >2</td>
                                 <td>Novels</td>
                                 <td><button class="btn btn-outline-primary ">
                                         <ion-icon name="create"></ion-icon>
@@ -117,8 +117,8 @@
                                     </button></td>
                             </tr>
 
-                            <tr>
-                                <td class="ps-4">3</td>
+                            <tr class="tb-text">
+                                <td >3</td>
                                 <td>Programming</td>
                                 <td><button class="btn btn-outline-primary ">
                                         <ion-icon name="create"></ion-icon>
@@ -134,29 +134,14 @@
                     <!-- Guide Table start -->
                     <div class="mt-5">
                         <table class="table table-striped table-sm">
-                            <tr>
-<<<<<<< HEAD
-                                <th class="col-1">No</th>
-                                <th class="col-3">Image</th>
-=======
-                                <th class="col-1 ps-4" >No</th>
-                                <th class="col-3 ps-5">Image</th>
->>>>>>> origin/main
+                            <tr class="tb-text">
+                                <th class="col-1" >No</th>
+                                <th class="col-3 ">Image</th>
                                 <th class="col-6">Guide Paragraph</th>
                                 <th class="col-2">Actions</th>
                             </tr>
-                            <tr>
-                                <td class="ps-4">1</td>
-                                <td class="ps-1"><img src="../resource/img/faq.png" alt="" class="customimagesize" /> </td>
-                                <td class=" overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur exercitationem ipsum natus recusandae aut commodi doloremque quis eius dicta accusantium sit,</td>
-                                <td><button class="btn btn-outline-primary ">
-                                        <ion-icon name="create"></ion-icon>
-                                    </button> <button class="btn btn-outline-danger mt-1 ">
-                                        <ion-icon name="trash-sharp"></ion-icon>
-                                    </button></td>
-                            </tr>
-                            <tr>
-                                <td class="ps-4">2</td>
+                            <tr class="tb-text">
+                                <td >1</td>
                                 <td><img src="../resource/img/faq.png" alt="" class="customimagesize" /> </td>
                                 <td class=" overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur exercitationem ipsum natus recusandae aut commodi doloremque quis eius dicta accusantium sit,</td>
                                 <td><button class="btn btn-outline-primary ">
@@ -165,8 +150,18 @@
                                         <ion-icon name="trash-sharp"></ion-icon>
                                     </button></td>
                             </tr>
-                            <tr>
-                                <td class="ps-4">3</td>
+                            <tr class="tb-text">
+                                <td >2</td>
+                                <td><img src="../resource/img/faq.png" alt="" class="customimagesize" /> </td>
+                                <td class=" overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur exercitationem ipsum natus recusandae aut commodi doloremque quis eius dicta accusantium sit,</td>
+                                <td><button class="btn btn-outline-primary ">
+                                        <ion-icon name="create"></ion-icon>
+                                    </button> <button class="btn btn-outline-danger mt-1 ">
+                                        <ion-icon name="trash-sharp"></ion-icon>
+                                    </button></td>
+                            </tr>
+                            <tr class="tb-text">
+                                <td>3</td>
                                 <td><img src="../resource/img/faq.png" alt="" class="customimagesize" /> </td>
                                 <td class=" overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur exercitationem ipsum natus recusandae aut commodi doloremque quis eius dicta accusantium sit,</td>
                                 <td><button class="btn btn-outline-primary ">
@@ -182,14 +177,14 @@
 
                     <div class=" mt-5 ">
                         <table class="table table-striped table-sm">
-                            <tr>
-                                <th class="col-2">No</th>
-                                <th class="col-4">City/Township</th>
-                                <th class="col-4">Price</th>
-                                <th class="col-2">Actions</th>
+                            <tr class="tb-text">
+                                <th>No</th>
+                                <th>City/Township</th>
+                                <th>Price</th>
+                                <th>Actions</th>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>1</td>
                                 <td>Monywa</td>
                                 <td>3000MMK</td>
@@ -200,7 +195,7 @@
                                     </button></td>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>2</td>
                                 <td>Yangon</td>
                                 <td>3000MMK</td>
@@ -211,7 +206,7 @@
                                     </button></td>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>3</td>
                                 <td>Mandalay</td>
                                 <td>3000MMK</td>
@@ -228,14 +223,14 @@
 
                     <div class=" mt-5 ">
                         <table class="table table-striped table-sm">
-                            <tr>
+                            <tr class="tb-text">
                                 <th class="col-1">No</th>
                                 <th class="col-3">Title</th>
                                 <th class="col-6">Paragraph</th>
                                 <th class="col-2">Actions</th>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>1</td>
                                 <td>Delivery</td>
                                 <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro </td>
@@ -246,7 +241,7 @@
                                     </button></td>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>2</td>
                                 <td>Delivery</td>
                                 <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro</td>
@@ -257,7 +252,7 @@
                                     </button></td>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>3</td>
                                 <td>Delivery</td>
                                 <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro </td>
@@ -275,14 +270,14 @@
 
                     <div class=" mt-5 ">
                         <table class="table table-striped table-sm">
-                            <tr>
+                            <tr class="tb-text">
                                 <th class="col-1">No</th>
                                 <th class="col-3">Title</th>
                                 <th class="col-6">Paragraph</th>
                                 <th class="col-2">Actions</th>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>1</td>
                                 <td>Delivery &payment</td>
                                 <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro </td>
@@ -293,7 +288,7 @@
                                     </button></td>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>2</td>
                                 <td>Buying</td>
                                 <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro</td>
@@ -304,7 +299,7 @@
                                     </button></td>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>3</td>
                                 <td>Delivery</td>
                                 <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro </td>
@@ -321,7 +316,7 @@
 
                     <div class=" mt-5 ">
                         <table class="table table-striped table-sm">
-                            <tr>
+                            <tr class="tb-text">
                                 <th class="col-1">No</th>
                                 <th class="col-2">Category</th>
                                 <th class="col-4">Questions</th>
@@ -329,7 +324,7 @@
                                 <th class="col-1">Actions</th>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>1</td>
                                 <td>Delivery</td>
                                 <td> Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro</td>
@@ -341,7 +336,7 @@
                                     </button></td>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>2</td>
                                 <td>Delivery</td>
                                 <td> Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro</td>
@@ -353,7 +348,7 @@
                                     </button></td>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>3</td>
                                 <td>Delivery</td>
                                 <td> Fugit voluptate et dolores aliquam numquam minima illo qui, nulla inventore! Porro</td>
@@ -375,14 +370,14 @@
 
                     <div class="mt-5 ">
                         <table class="table table-striped table-sm ">
-                            <tr>
+                            <tr class="tb-text">
                                 <th class="col-2">No</th>
                                 <th class="col-4">Name</th>
                                 <th class="col-4">Email</th>
                                 <th class="col-2">Actions</th>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>1</td>
                                 <td>john</td>
                                 <td>Jon@email.com</td>
@@ -393,7 +388,7 @@
                                     </button></td>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>2</td>
                                 <td>john</td>
                                 <td>Jon@email.com</td>
@@ -404,7 +399,7 @@
                                     </button></td>
                             </tr>
 
-                            <tr>
+                            <tr class="tb-text">
                                 <td>3</td>
                                 <td>john</td>
                                 <td>Jon@email.com</td>

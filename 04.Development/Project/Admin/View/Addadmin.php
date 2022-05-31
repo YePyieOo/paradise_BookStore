@@ -16,23 +16,23 @@
 </head>
 <body>
 <div class="container-fluid mt-5">
-<button class="custombutton btn btn-sm offset-4 ">Back</button>
+<button class="custombutton btn btn-sm offset-4 fw-bold">BACK</button>
 <div class="row offset-4">
 <div class="col-5 mt-3">
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Write your name</label>
-  <input type="email" class="customstyle form-control" id="exampleFormControlInput1">
+  <input type="email" class="customstyle form-control" id="exampleFormControlInput1" placeholder="">
 </div>
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Write your email</label>
-  <input type="email" class="customstyle form-control" id="exampleFormControlInput1">
+  <input type="email" class="customstyle form-control" id="exampleFormControlInput1" placeholder="example@email.com">
 </div>
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Creat your password</label>
-  <input type="password" class="customstyle form-control" id="exampleFormControlInput1">
+  <input type="password" class="customstyle form-control" id="exampleFormControlInput1" placeholder="">
 </div>
 
-<button class="custombutton btn btn-sm offset-10 mt-3">ADD</button>
+<button class="custombutton btn btn-sm offset-10 mt-3 fw-bold">ADD ADMIN</button>
 
 </div>
 </div>
