@@ -9,9 +9,12 @@
    <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
    <link rel="stylesheet" href="../resource/css/style.css" />
    <link rel="stylesheet" href="../resource/css/homepage.css" />
-   <link rel="stylesheet" href="../resource/css/signup.css">
+   <link rel="stylesheet" href="../resource/css/signin.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
    <link rel="stylesheet" href="../resource/UI Library/fontawesome-free/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -92,7 +95,7 @@
                   <p>use your email for registration</p>
                   <form action="">
                      <input class="mb-3 px-3" type="text" name="" id="" placeholder="Name">
-                     <input class="mb-3 px-3" type="text" name="" id="" placeholder="password">
+                     <input class="mb-3 px-3" type="text" name="" id="" placeholder="Password">
                      <input class="mb-3 px-3" type="text" name="" id="" placeholder="Email">
                      <input class="mb-3 px-3" type="text" name="" id="" placeholder="Phone">
                      <input class="mb-3 px-3" type="text" name="" id="" placeholder="Address">

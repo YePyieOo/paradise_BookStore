@@ -1,9 +1,19 @@
+:root {
+    --primary-darkblue: #1f4287;
+    --secondary-lightblue: #1f4287;
+    --font-color1: #484343;
+    --font-color2: #595e68;
+    --font-color3: #2964da;
+    --yellow-icon: #f4d221;
+ }
 img{
     width: 30%;
     height: 10vh;
     object-fit: cover;
 }
-
+.b{
+    color: var(--primary-darkblue);
+}
 .underline{
     width: 100%;
     height: 30vh;
@@ -26,12 +36,16 @@ img{
     object-fit: cover;
    
 }
+.abd{
+    color: var(--primary-darkblue);
+}
+.itemsclass{
+    background-color: var(--primary-darkblue);
+}
 
-/* div div h4 div{
-    font-size: 10px;
-} */
-
-
+icon{
+    color:b ;
+}
 .my-card-info {
     width: 100%;
     background-color: white;

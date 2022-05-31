@@ -9,9 +9,12 @@
    <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
    <link rel="stylesheet" href="../resource/css/style.css" />
    <link rel="stylesheet" href="../resource/css/homepage.css" />
-   <link rel="stylesheet" href="../resource/css/signup.css">
+   <link rel="stylesheet" href="../resource/css/add_to_cart.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
    <link rel="stylesheet" href="../resource/UI Library/fontawesome-free/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -76,8 +79,8 @@
    </nav>
    <!-- nav -->
    <div class="container-fluid header">
-        <div class="container d-flex justify-content-between align-items-center flex-wrap py-5 ">
-            <h1>Checkout your order</h1>
+        <div class="container d-flex justify-content-between align-items-center flex-wrap py-5 abd ">
+            <h1 class="fw-bolder">Checkout your order</h1>
             <span><b>Home</b> -> Checkout</span>
         </div>
     </div>
@@ -141,7 +144,7 @@
                             </label>
                         </div>
                     </div>
-                    <button class="btn btn-primary">Continue</button>
+                    <button class="btn btn-primary abd ">Continue</button>
                 </form>
             </div>
             <div class="col-12 col-md-6">
@@ -188,7 +191,7 @@
                         <p>Address : <span class="ms-3">No.(404), Not Found str, Dismiss City</span></p>
                         <p>Payment : <span class="ms-3">Cash On Delivery</span></p>
                     </div>
-                    <button class="btn btn-primary">Place Order</button>
+                    <button class="btn btn-primary abd">Place Order</button>
                 </div>
             </div>
         </div>

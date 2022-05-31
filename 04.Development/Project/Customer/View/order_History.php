@@ -5,14 +5,18 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Homepage</title>
+   <title>Order History</title>
    <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
    <link rel="stylesheet" href="../resource/css/style.css" />
    <link rel="stylesheet" href="../resource/css/homepage.css" />
-   <link rel="stylesheet" href="../resource/css/order_History.css">
+   <link rel="stylesheet" href="../resource/css/add_to_cart.css" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
    <link rel="stylesheet" href="../resource/UI Library/fontawesome-free/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
+
 
 <body>
    <!-- nav -->
@@ -75,16 +79,16 @@
       </div>
    </nav>
    <!-- nav -->
-   <div class="container header d-flex justify-content-between align-items-center p-4">
-            <h3>Order History</h3>
-            <div>
-                <b>Home</b> -> order details
-            </div>
-        </div>
-        <h5 class="fw-bolder text-primary">Order History</h5>
+   <div class="container header d-flex justify-content-between align-items-center p-4 abd ">
+      <h3 class="fw-bolder">Order History</h3>
+      <div>
+         <b>Home</b> -> Order Details
+      </div>
+   </div>
+        <h5 class="fw-bolder text-primary"></h5>
         <div >
         <table class="table">
-  <thead>
+        <thead class="text-light itemsclass">
     <tr>
       <th scope="col">Items</th>
       <th scope="col"></th>
@@ -231,6 +235,7 @@
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
    <script src="../resource/UI Library/fontawesome-free/js/all.min.js"></script>
+   <script src="../resource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
    <script type="text/javascript">
       $(".slider").slick({
          prevArrow: '<span class="priv_arrow btn  btn-primary "><i class="fas fa-angle-left"></i></span>',
@@ -238,5 +243,4 @@
       });
    </script>
 </body>
-
 </html>

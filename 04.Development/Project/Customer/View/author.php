@@ -5,14 +5,18 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Homepage</title>
+   <title>Author</title>
    <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
    <link rel="stylesheet" href="../resource/css/style.css" />
    <link rel="stylesheet" href="../resource/css/homepage.css" />
    <link rel="stylesheet" href="../resource/css/author.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
    <link rel="stylesheet" href="../resource/UI Library/fontawesome-free/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
+
 
 <body>
    <!-- nav -->
@@ -76,14 +80,24 @@
    </nav>
    <!-- nav -->
    <div class="container header text-primary d-flex justify-content-between align-items-center p-4">
-            <h3>Authors</h3>
-            <div>
-                <b>Home</b> -> Authors
-            </div>
-            
-        </div>
-        <div class="container d-flex justify-content-center  align -items-center my-4"><u class="text-primary">ALL</u> A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</div>
-        <div class="container-fluid d-flex justify-content-between align-items-center my-4">
+      <h3>Authors</h3>
+      <div>
+         <b>Home</b> -> Authors
+      </div>
+
+   </div>
+   <div class="container d-flex justify-content-center">
+      <nav aria-label="Page navigation example">
+         <ul class="pagination">
+            <li class="page-item "><a class="page-link" href="#"><u>All</u></a></li>
+            <?php $alphas = "abcdefghijklmnopqrstuvwxyz"; ?>
+            <?php foreach (str_split($alphas)  as $alpha) : ?>
+               <li class="page-item"><a class="page-link" href="#"><?= $alpha ?></a></li>
+            <?php endforeach ?>
+         </ul>
+      </nav>
+   </div>
+   <div class="container-fluid d-flex justify-content-between align-items-center my-4">
       <div class="container">
          <div class="row g-0">
             <?php for ($i = 0; $i < 12; $i++) : ?>
@@ -93,28 +107,16 @@
                         <img src="../resource/img/author.png" class="rounded-circle" alt="">
                      </div>
                      <div class="my-card-info">
-                        
+
                         <div class="mb-2">
                            <span style="font-size:x-small">
                               <?php for ($s = 0; $s < 5; $s++) : ?>
-                           
-                                <!-- <button class="btn card-button px-1 rounded-1 me-1">Author Profile -->
-                                <!-- <button class="btn btn-outline-primary mb-3">Sign in -->
-                                    <!-- <i class="fa-solid fa-star"></i> -->
-                             
-                                    <!-- <i class="fa-regular fa-star"></i> -->
-                              
                               <?php endfor ?>
-                              <!-- <button></button> -->
                            </span><br>
                            <h3 class="text-primary d-flex  justify-content-center align-items-center  font-color-primary mt-2"><b>Min Thein Kha</b></h3>
                            <span style="font-size:larger;" class="text-light btn-primary p-2 rounded-3 d-flex  justify-content-center align-items-center  font-color-primary mt-3 ">Author Profile</span>
                         </div>
-                        <!-- <p style="font-weight:500 ;">3500 MMK</p>
-                        <button class="btn card-button px-1 rounded-1 me-1"><i class="fa-solid fa-cart-shopping me-1"></i>add
-                           to
-                           cart</button> -->
-                        <!-- <span class="btn btn-primary card-button"><i class="fa-solid fa-eye"></i> 4</span> -->
+
                      </div>
                   </div>
                </div>
@@ -122,6 +124,13 @@
          </div>
       </div>
    </div>
+   <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center ">
+         <li class="page-item"><a class="page-link" href="#">1</a></li>
+         <li class="page-item"><a class="page-link" href="#">2</a></li>
+         <li class="page-item"><a class="page-link" href="#">3</a></li>
+      </ul>
+   </nav>
    <!-- footer -->
    <footer id="footer" class="container-fluid commom-bg mt-5">
       <div class="row">
@@ -235,6 +244,7 @@
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
    <script src="../resource/UI Library/fontawesome-free/js/all.min.js"></script>
+   <script src="../resource/UI Library/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
    <script type="text/javascript">
       $(".slider").slick({
          prevArrow: '<span class="priv_arrow btn  btn-primary "><i class="fas fa-angle-left"></i></span>',

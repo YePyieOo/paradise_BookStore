@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Homepage</title>
+   <title>Sign In</title>
    <link rel="stylesheet" href="../resource/UI Library/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
    <link rel="stylesheet" href="../resource/css/style.css" />
    <link rel="stylesheet" href="../resource/css/homepage.css" />
@@ -85,11 +85,14 @@
                <div class="text-center m-5">
                   <h3 class="my-class text-primary mb-3">Sign in</h3>
                   <form action="">
-                     <input class="form-control mb-3" type="text" name="" id="" placeholder="email">
-                     <input class="form-control mb-3" type="text" name="" id="" placeholder="password">
+                     <input class="form-control mb-3" type="text" name="" id="" placeholder="Email">
+                     <div class="position-relative">
+                        <input class="form-control mb-3" type="text" name="" id="" placeholder="Password">
+                        <ion-icon name="eye-outline" class="position-absolute"></ion-icon>
+                     </div>
                      <button class="btn btn-outline-primary mb-3">Sign in</button>
                   </form>
-                  <h6 class="text-primary">forget password?</h6>
+                  <h6 class="text-primary">Forget Your Password?</h6>
                </div>
             </div>
             <div class="col-12 col-md-6 inner-right">
