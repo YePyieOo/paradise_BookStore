@@ -23,6 +23,7 @@
 .logout:focus{
     background-color: var(--dashboard-items-color);
 }
+/* Button Color */
 .custombutton{
     background-color: var(--btn-color);
     color: var( --color-black);
@@ -38,8 +39,23 @@
 .tb-text{
     text-align: center;
 }
+<<<<<<< HEAD
+/* DropDown */
+.btn-drop{
+    width: 17em;
+    height: 2.3em;
+    border-radius: 0.2em;
+}
+/* InputBox Color */
+.customstyle{
+    background-color: var(--input-box-color);
+}
+.back-icon{
+    display: none;
+=======
 .icons{
     margin-top: 2.1px;
+>>>>>>> origin/main
 }
 @media screen and (max-width:1030px){
     .buttonbox{
@@ -53,7 +69,6 @@
     }
     .my-img{
         width: 100%;
-        
     }
     .box1{
         height: 12vh;
@@ -65,4 +80,5 @@
         font-size: 10px;
         font-weight: 800;
     }
+    
 }

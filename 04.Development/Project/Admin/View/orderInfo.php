@@ -27,11 +27,11 @@
                 <ul class="list-group mt-4">
                     <li class="h4 mt-3 d-flex justify-content-between align-items-center">
                         Order List
-                        <span class="badge bg-warning rounded-pill"><a href="./orderDetail.php" class="text-dark">Order Detail</a></span>
+                        <span class="badge bg-warning rounded-pill"><a href="./orderDetail.php" class="text-dec text-dark">Order Detail</a></span>
                     </li>
                 </ul>
                 <table class="table table-striped mt-4">
-                    <tr class="bg-warning">
+                    <tr class="tb-text bg-warning">
                         <th class="col-1">No</th>
                         <th class="col-2">CustomerName</th>
                         <th class="col-3 ">Address</th>
@@ -39,30 +39,30 @@
                         <th class="col-2">Total</th>
                         <th class="col-2">Delivery Fees</th>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>1</td>
                         <td>helloJohn</td>
                         <td>No.7B,Kamayut Township</td>
                         <td>Yangon</td>
-                        <td>5,000MMK</td>
-                        <td>2,000MMK</td>
+                        <td>5,000 MMK</td>
+                        <td>2,000 MMK</td>
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>2</td>
                         <td>helloMary</td>
                         <td>No.7B,Kamayut Township</td>
                         <td>Yangon</td>
-                        <td>5,000MMK</td>
-                        <td>2,000MMK</td>
+                        <td>5,000 MMK</td>
+                        <td>2,000 MMK</td>
 
                     </tr>
-                    <tr>
+                    <tr class="tb-text">
                         <td>3</td>
                         <td>helloNora</td>
                         <td>No.7B,Kamayut Township</td>
                         <td>Yangon</td>
-                        <td>5,000MMK</td>
-                        <td>2,000MMK</td>
+                        <td>5,000 MMK</td>
+                        <td>2,000 MMK</td>
                     </tr>
                 </table>
             </div>
